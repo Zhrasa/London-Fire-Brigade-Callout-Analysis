@@ -12,16 +12,22 @@ This dataset will be employed to answer the following questions:
 
 ## Data Pre-processing
 ### Data Types
-To ensure that the correct datatypes were allocated to each variable `Easting_rounded`, 
-`Northing_rounded` and `HourOfCall` needed converting to categorical types.
-<<<<<<< HEAD
-=======
+
+To ensure that the correct datatypes were allocated to each variable `Easting_rounded`, `Northing_rounded` and `HourOfCall` needed converting to categorical types.
+======= 
 
 
 ## Software
+
 Google Colaboratory
 Google Spreadsheets
 Google Docs
-=======
 
->>>>>>> e3cbbe43221a9ced23a9f91f51f5d5e59962327a
+### python libraries 
+
+The Python packages applied were 
+Pandas and Numpy for statistical analysis
+Matplotlib and Seaborn for exploratory data analysis and visualisation
+scikit-learn and XGBoost for pre-processing, modelling, and evaluation
+openpyxl to load the dataset.
+The machine learning algorithms used include Decision Tree, Logistic Regression, Random Forest, and Extreme Gradient Boosting. 
