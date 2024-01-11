@@ -1,4 +1,6 @@
 # London Fire Brigade Analysis
+This dataset will be employed to answer the business problem questions:
+The only location in the UK to be named in Frommer's top ten global destinations for 2012 was Greenwich. This aims to investigate a genuine issue that the London Fire Brigade has.
 
 ## Business Problems:
 This dataset will be employed to answer the following questions:
@@ -7,12 +9,15 @@ This dataset will be employed to answer the following questions:
 * What are the locations and dates of the fires? Are there more fires during or close to bank holidays?
 * Have all the fires in the borough been attended by the local stations? Have the local stations been used for other Fire Service grounds? What are the features of the incidents attended by other stations and is there a difference from the incidents attended by the local stations?
 * What does the number of pumps necessary per day depend on? How many pumps should a station have?
-<<<<<<< HEAD
-
 
 ## Data Pre-processing
 ### Data Types
 To ensure that the correct datatypes were allocated to each variable `Easting_rounded`, 
 `Northing_rounded` and `HourOfCall` needed converting to categorical types.
 =======
->>>>>>> 67ddb11f57f2565967cd2cbbb3d87f96ee6f6bd7
+
+
+## Software
+Google Colaboratory
+Google Spreadsheets
+Google Docs
