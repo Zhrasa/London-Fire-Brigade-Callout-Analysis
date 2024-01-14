@@ -15,7 +15,7 @@ This dataset will be employed to answer the following questions:
 
 To ensure that the correct datatypes were allocated to each variable `Easting_rounded`, `Northing_rounded` and `HourOfCall` needed converting to categorical types.
 
- 
+  
 ![image](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/b2fe713c-6f02-427b-83f3-2542b3a687fa)
 
 ======= 
