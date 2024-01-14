@@ -16,6 +16,8 @@ This dataset will be employed to answer the following questions:
 To ensure that the correct datatypes were allocated to each variable `Easting_rounded`, `Northing_rounded` and `HourOfCall` needed converting to categorical types.
 
 
+![alt text](image.png)
+
 ======= 
 
 
