@@ -1,7 +1,7 @@
 <div align="center">
   <h1>London Fire Brigade Analysis</h1>
 </div>
-# 
+
 This dataset will be employed to answer the business problem questions:
 The only location in the UK to be named in Frommer's top ten global destinations for 2012 was Greenwich. This aims to investigate a genuine issue that the London Fire Brigade has.
 
@@ -38,20 +38,31 @@ From the numerical histograms, it can be seen that most of the incidents, includ
 ![image](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/7b134ecb-3086-4c50-a5c3-595c7107d90d)
 
 <div align="center"> Fig. The scatter plot of fires and false alarms.</div>
+
+### Model Construction
+
+
+
+
 ======= 
 
 
 ## Software
 
 Google Colaboratory
+
 Google Spreadsheets
+
 Google Docs
 
 ### python libraries 
 
-The Python packages applied were 
-Pandas and Numpy for statistical analysis
+The Python packages applied were Pandas and Numpy for statistical analysis 
+
 Matplotlib and Seaborn for exploratory data analysis and visualisation
-scikit-learn and XGBoost for pre-processing, modelling, and evaluation
+
+scikit-learn and XGBoost for pre-processing, modelling, and evaluation 
+
 openpyxl to load the dataset.
+
 The machine learning algorithms used include Decision Tree, Logistic Regression, Random Forest, and Extreme Gradient Boosting. 
