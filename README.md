@@ -42,14 +42,16 @@ From the numerical histograms, it can be seen that most of the incidents, includ
 
 ![image](https://github.com/user-attachments/assets/00a05f8c-5127-47b0-bf94-3fd087949ee1)
 
-<<<<<<< HEAD
- <div align="center"> Fig. The box plots</div>
- 
-=======
+ <div align="center"> Fig. The box plots </div>
 
->>>>>>> 3784de5a82cfe92b0f65ca073145385d2c8c8190
 ### Model Construction
 
+#### IncidentGroup Fire/False Alarm Prediction
+For the predictive modelling of the categorical features, a classification task, Decision Tree Classifier, Random Forest Classifier, and Extreme Gradient Boosting Classifier were used. The former provided a clear explanation and visualisation, the other two performed better with the evaluation metrics used for the targets. 
+The preprocessing commands described in the previous section, Data Preparation, were defined as functions to be applied only to the training set, leaving the testing set more appropriate and realistic.
+The One Hot Encoding method was applied to the dataset and it was split into the training and testing sets. The split was not random, but based on the order of the entries - the last eighth, consisting of 1,607 rows, was set for testing, providing reasonable variability and size. The rationale behind using the newest records was that a prediction model would be used to predict the unseen data, less affected by the older trends existing in the training set. The training set consisted of 7,000 entries after the outliers were removed. 
+The features were separated into the known and unknown at the time of dispatching a team, as described in Table I. 
+Several functions from the scikit-learn Python package were used to select the features which would provide the most accurate prediction - SelectKBest and Recursive Feature Elimination (RFE) with feature ranking. The former required to specify the scoring metrics. F_classif (computing the ANOVA F-value) and mutual_info_classif (measuring the dependency between the features) were used with SelectKBest. The number of features was set as one-fourth of the total number (710), 178 (rounding up). The Decision Tree Classifier was chosen as the estimator for the RFE function. Additionally, a set of 18 most important features was generated with RFE. Tables XI and XII describe the summarised feature importance values for the Fire and False Alarm Incident Groups. It can be seen that the temporal and property-related features had the highest importance for both target features, with DayOfCall and PropertyCategory reaching 0.28 and 0.25 for Fire and DayOfCall, PropertyType, and HourOfCall 0.31, 0.13, and 0.12 for False Alarm.
 
 
 
