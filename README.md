@@ -56,7 +56,7 @@ Several functions from the scikit-learn Python package were used to select the f
 The Decision Tree Classifier was chosen as the estimator for the RFE function. Additionally, a set of 18 most important features was generated with RFE. Tables XI and XII describe the summarised feature importance values for the Fire and False Alarm Incident Groups. It can be seen that the temporal and property-related features had the highest importance for both target features, with DayOfCall and PropertyCategory reaching 0.28 and 0.25 for Fire and DayOfCall, PropertyType, and HourOfCall 0.31, 0.13, and 0.12 for False Alarm.
 
 <div align="center"> TABLE I </div>
-<div align="center">RFE Feature Importance for the Fire IncidentGroup
+<div align="center">RFE Feature Importance for the Fire IncidentGroup</div>
 Feature	Importance (Sum)
 DayOfCall	0.28
 PropertyCategory	0.25
