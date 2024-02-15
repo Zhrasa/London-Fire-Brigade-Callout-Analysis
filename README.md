@@ -72,7 +72,7 @@ Month	0.02
 AddressQualifier	0.01
 
 
-|** Feature ** | **Importance (Sum)** |
+|**Feature** | **Importance (Sum)** |
 |--------------|--------------|
 | DayOfCall | 0.28 |
 | DayOfCall | 0.28 |
