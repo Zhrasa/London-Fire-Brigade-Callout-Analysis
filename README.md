@@ -72,7 +72,7 @@ Month	0.02
 AddressQualifier	0.01
 
 
-| ** Feature ** | **Importance (Sum)** |
+|** Feature ** | **Importance (Sum)** |
 |--------------|--------------|
 | Row 1, Col 1 | Row 1, Col 2 |
 | Row 2, Col 1 | Row 2, Col 2 |
