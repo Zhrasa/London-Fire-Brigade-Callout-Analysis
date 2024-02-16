@@ -59,9 +59,9 @@ The Decision Tree Classifier was chosen as the estimator for the RFE function. A
 <div align="center">RFE Feature Importance for the Fire IncidentGroup</div>
 
 	
-PropertyCategory	0.25
-PropertyType	0.09
-HourOfCall	0.09
+	
+	
+	
 Ward	0.07
 Easting_rounded	0.05
 NumCalls	0.05
@@ -75,9 +75,9 @@ AddressQualifier	0.01
 |**Feature** | **Importance (Sum)** |
 |--------------|--------------|
 | DayOfCall | 0.28 |
-|  |  |
-|  |  |
-|  |  |
+| PropertyCategory | 0.25 |
+| PropertyType | 0.09 |
+| HourOfCall | 0.09 |
 |  |  |
 |  |  |
 |  |  |
