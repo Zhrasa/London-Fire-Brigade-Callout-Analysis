@@ -75,7 +75,15 @@ AddressQualifier	0.01
 |**Feature** | **Importance (Sum)** |
 |--------------|--------------|
 | DayOfCall | 0.28 |
-| DayOfCall | 0.28 |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
 ======= 
 
