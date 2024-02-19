@@ -60,8 +60,8 @@ The Decision Tree Classifier was chosen as the estimator for the RFE function. A
 
 	
 	
-IncidentStationGround	0.03
-Postcode_district	0.03
+	0.03
+	0.03
 Month	0.02
 AddressQualifier	0.01
 
@@ -76,8 +76,8 @@ AddressQualifier	0.01
 | Easting_rounded | 0.05 |
 | NumCalls | 0.05 |
 | Northing_rounded | 0.04 |
-|  |  |
-|  |  |
+| IncidentStationGround | 0.03 |
+| Postcode_district | 0.03 |
 
 ======= 
 
