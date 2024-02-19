@@ -71,7 +71,7 @@ AddressQualifier	0.01
 | DayOfCall | 0.28 |
 | PropertyCategory | 0.25 |
 | PropertyType | 0.09 |
-| HourOfCall | 0.09 |
+| HourOfCall | 0.09 | 
 | Ward | 0.07 |
 | Easting_rounded | 0.05 |
 | NumCalls | 0.05 |
