@@ -58,11 +58,6 @@ The Decision Tree Classifier was chosen as the estimator for the RFE function. A
 <div align="center"> TABLE I </div>
 <div align="center">RFE Feature Importance for the Fire IncidentGroup</div>
 
-
-	
-AddressQualifier	0.01
-
-
 |**Feature** | **Importance (Sum)** |
 |--------------|--------------|
 | DayOfCall | 0.28 |
@@ -76,7 +71,7 @@ AddressQualifier	0.01
 | IncidentStationGround | 0.03 |
 | Postcode_district | 0.03 |
 | Month | 0.02 |
-|  | 0.01 |
+| AddressQualifier | 0.01 |
 
 
 ======= 
