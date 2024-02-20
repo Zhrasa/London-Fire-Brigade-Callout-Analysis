@@ -75,6 +75,8 @@ AddressQualifier	0.01
 | Northing_rounded | 0.04 |
 | IncidentStationGround | 0.03 |
 | Postcode_district | 0.03 |
+| Postcode_district | 0.03 |
+| Postcode_district | 0.03 |
 
 
 ======= 
