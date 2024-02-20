@@ -59,7 +59,7 @@ The Decision Tree Classifier was chosen as the estimator for the RFE function. A
 <div align="center">RFE Feature Importance for the Fire IncidentGroup</div>
 
 
-Month	
+	
 AddressQualifier	0.01
 
 
@@ -75,7 +75,7 @@ AddressQualifier	0.01
 | Northing_rounded | 0.04 |
 | IncidentStationGround | 0.03 |
 | Postcode_district | 0.03 |
-|  | 0.02 |
+| Month | 0.02 |
 |  | 0.01 |
 
 
