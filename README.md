@@ -188,7 +188,7 @@ Non Residential	Fire	2313	2777	226	9.77	8.14	1.76	9.77	8.14
 Outdoor Structure	Special Service	707	4886	55	7.78	1.13	0.43	7.78	1.13
 Road Vehicle	False Alarm	1152	5198	88	7.64	1.69	0.68	7.64	1.69
 Other Residential	Fire	544	2777	41	7.54	1.48	0.32	7.54	1.48
-
+  
 TABLE XX
 Association Between IncidentGroup and PropertyCategory (without Outliers)
 PropertyCategory	IncidentGroup	Fr_PC	Fr_IG	Fr_Itemset	FrP_PC	FrP_IG	Support	Conf_PC->IG	Conf_IG->PC
