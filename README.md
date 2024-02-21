@@ -87,8 +87,8 @@ RFE Feature Importance for the False Alarm IncidentGroup
 | PropertyCategory | 0.12 |
 | PropertyType | 0.13 |
 | HourOfCall | 0.12 | 
-| Ward | 0.07 |
-| Easting_rounded | 0.05 |
+| Ward | 0.05 |
+| Easting_rounded | 0.08 |
 | NumCalls | 0.05 |
 | Northing_rounded | 0.04 |
 | IncidentStationGround | 0.03 |
@@ -99,14 +99,10 @@ RFE Feature Importance for the False Alarm IncidentGroup
 
 
 
-	0.31
-	0.13
-	0.12
-	0.12
-Easting_rounded	0.08
+	0.08
 Northing_rounded	0.08
 Month	0.07
-Ward	0.05
+\	0.05
 AddressQualifier	0.02
 Postcode_district	0.02
 NumCalls	0.01
