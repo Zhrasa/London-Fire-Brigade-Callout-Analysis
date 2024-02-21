@@ -99,10 +99,6 @@ RFE Feature Importance for the False Alarm IncidentGroup
 
 
 
-\
-	0.08
-	0.07
-\	0.05
 AddressQualifier	0.02
 Postcode_district	0.02
 NumCalls	0.01
