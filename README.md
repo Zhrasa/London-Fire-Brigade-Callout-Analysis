@@ -90,18 +90,18 @@ RFE Feature Importance for the False Alarm IncidentGroup
 | Ward | 0.05 |
 | Easting_rounded | 0.08 |
 | NumCalls | 0.05 |
-| Northing_rounded | 0.04 |
+| Northing_rounded | 0.08 |
 | IncidentStationGround | 0.03 |
 | Postcode_district | 0.03 |
-| Month | 0.02 |
+| Month | 0.8 |
 | AddressQualifier | 0.01 |
 </div>
 
 
 
+\
 	0.08
-Northing_rounded	0.08
-Month	0.07
+	0.07
 \	0.05
 AddressQualifier	0.02
 Postcode_district	0.02
