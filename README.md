@@ -75,8 +75,30 @@ RFE Feature Importance for the Fire IncidentGroup
 | AddressQualifier | 0.01 |
 </div>
  ========
-TABLE XII
+
+<div align="center"> TABLE II  
+  
 RFE Feature Importance for the False Alarm IncidentGroup 
+
+
+|**Feature** | **Importance (Sum)** |
+|--------------|--------------|
+| DayOfCall | 0.28 |
+| PropertyCategory | 0.25 |
+| PropertyType | 0.09 |
+| HourOfCall | 0.09 | 
+| Ward | 0.07 |
+| Easting_rounded | 0.05 |
+| NumCalls | 0.05 |
+| Northing_rounded | 0.04 |
+| IncidentStationGround | 0.03 |
+| Postcode_district | 0.03 |
+| Month | 0.02 |
+| AddressQualifier | 0.01 |
+</div>
+
+
+TABLE XII
 Feature	Importance (Sum)
 DayOfCall	0.31
 PropertyType	0.13
