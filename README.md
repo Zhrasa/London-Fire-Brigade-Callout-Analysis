@@ -83,10 +83,10 @@ RFE Feature Importance for the False Alarm IncidentGroup
 
 |**Feature** | **Importance (Sum)** |
 |--------------|--------------|
-| DayOfCall | 0.28 |
-| PropertyCategory | 0.25 |
-| PropertyType | 0.09 |
-| HourOfCall | 0.09 | 
+| DayOfCall | 0.31 |
+| PropertyCategory | 0.12 |
+| PropertyType | 0.13 |
+| HourOfCall | 0.12 | 
 | Ward | 0.07 |
 | Easting_rounded | 0.05 |
 | NumCalls | 0.05 |
@@ -98,12 +98,11 @@ RFE Feature Importance for the False Alarm IncidentGroup
 </div>
 
 
-TABLE XII
-Feature	Importance (Sum)
-DayOfCall	0.31
-PropertyType	0.13
-HourOfCall	0.12
-PropertyCategory	0.12
+
+	0.31
+	0.13
+	0.12
+	0.12
 Easting_rounded	0.08
 Northing_rounded	0.08
 Month	0.07
