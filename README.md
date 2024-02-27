@@ -89,20 +89,14 @@ RFE Feature Importance for the False Alarm IncidentGroup
 | HourOfCall | 0.12 | 
 | Ward | 0.05 |
 | Easting_rounded | 0.08 |
-| NumCalls | 0.05 |
+| NumCalls | 0.01 |
 | Northing_rounded | 0.08 |
-| IncidentStationGround | 0.03 |
+| IncidentStationGround | 0.01 |
 | Postcode_district | 0.02 |
 | Month | 0.8 |
 | AddressQualifier | 0.02 |
 </div>
 
-
-
-	0.02
-	0.02
-NumCalls	0.01
-IncidentStationGround	0.01
 
 Due to the application of the One Hot Encoding method, the feature selection functions selected the encoded features, i.e. the specific values of the categorical features. 
 The Decision Tree algorithm was run with each selection of features. F1 score (binary) and accuracy were chosen as the evaluation metrics. The output of the algorithm is present in Tables XIII and XIV. The SelectKBest (f_classif) function provided the highest F1 score for the Fire IncidentGroup and RFE with 18 selected features for the False Alarm IncidentGroup.
