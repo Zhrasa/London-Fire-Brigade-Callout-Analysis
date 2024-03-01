@@ -102,14 +102,14 @@ Due to the application of the One Hot Encoding method, the feature selection fun
 The Decision Tree algorithm was run with each selection of features. F1 score (binary) and accuracy were chosen as the evaluation metrics. The output of the algorithm is present in Tables XIII and XIV. The SelectKBest (f_classif) function provided the highest F1 score for the Fire IncidentGroup and RFE with 18 selected features for the False Alarm IncidentGroup.
 
 
-<div align="center"> TABLE II  
+<div align="center"> TABLE III  
   
-RFE Feature Importance for the False Alarm IncidentGroup 
+Feature Sets’ Performance for the Decision Tree Algorithm for the Fire IncidentGroup
 
 
-|**Feature** | **Importance (Sum)** |
+|**Feature selection function** | **Number of features** |**F1 score** |
 |--------------|--------------|
-| DayOfCall | 0.31 |
+| DayOfCall | 0.31 |   |
 | PropertyCategory | 0.12 |
 | PropertyType | 0.13 |
 | HourOfCall | 0.12 | 
@@ -122,9 +122,7 @@ RFE Feature Importance for the False Alarm IncidentGroup
 | Month | 0.8 |
 | AddressQualifier | 0.02 |
 </div>
-TABLE XIII
-Feature Sets’ Performance for the Decision Tree Algorithm for the Fire IncidentGroup
-Feature selection function	Number of features	F1 score
+		
 All features	710	0.6195190948
 SelectKBest (f_classif)	178	0.6701986755
 SelectKBest (mutual_info_regression)	178	0.5046728972
