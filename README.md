@@ -110,10 +110,10 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the Fire Inciden
 |**Feature selection function** | **Number of features** |**F1 score** |
 |--------------|--------------|
 | All features | 710 | 	0.6195190948  |
-|   |  | 	  |
-|   |  | 	  |
-|   |  | 	  |
-|   |  | 	  |
+| SelectKBest (f_classif)  | 178 | 	0.6701986755  |
+| SelectKBest (mutual_info_regression) | 178 | 	0.5046728972  |
+|  RFE | 178 |	0.6614173228  |
+|  RFE | 18 |  0.6563706564 |
 |   |  | 	  |
 |   |  | 	  |
 
@@ -121,10 +121,10 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the Fire Inciden
 </div>
 		
 	
-SelectKBest (f_classif)	178	0.6701986755
-SelectKBest (mutual_info_regression)	178	0.5046728972
-RFE	178	0.6614173228
-RFE	18	0.6563706564
+ 	178	
+ 	178	
+		
+RFE		
 
 TABLE XIV
 Feature Sets’ Performance for the Decision Tree Algorithm for the False Alarm IncidentGroup
