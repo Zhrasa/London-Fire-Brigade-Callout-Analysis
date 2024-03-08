@@ -117,17 +117,7 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the Fire Inciden
 |   |  | 	  |
 |   |  | 	  |
 
-| PropertyCategory | 0.12 |
-| PropertyType | 0.13 |
-| HourOfCall | 0.12 | 
-| Ward | 0.05 |
-| Easting_rounded | 0.08 |
-| NumCalls | 0.01 |
-| Northing_rounded | 0.08 |
-| IncidentStationGround | 0.01 |
-| Postcode_district | 0.02 |
-| Month | 0.8 |
-| AddressQualifier | 0.02 |
+
 </div>
 		
 	
