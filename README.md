@@ -109,7 +109,14 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the Fire Inciden
 
 |**Feature selection function** | **Number of features** |**F1 score** |
 |--------------|--------------|
-| DayOfCall | 0.31 | 	0.6195190948  |
+| All features | 710 | 	0.6195190948  |
+|   |  | 	  |
+|   |  | 	  |
+|   |  | 	  |
+|   |  | 	  |
+|   |  | 	  |
+|   |  | 	  |
+
 | PropertyCategory | 0.12 |
 | PropertyType | 0.13 |
 | HourOfCall | 0.12 | 
@@ -123,7 +130,7 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the Fire Inciden
 | AddressQualifier | 0.02 |
 </div>
 		
-All features	710
+	
 SelectKBest (f_classif)	178	0.6701986755
 SelectKBest (mutual_info_regression)	178	0.5046728972
 RFE	178	0.6614173228
