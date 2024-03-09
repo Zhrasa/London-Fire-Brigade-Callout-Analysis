@@ -124,23 +124,16 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the False Alarm 
 
 |**Feature selection function** | **Number of features** |**F1 score** |
 |--------------|--------------|--------------|
-| All features | 710 | 	0.6195190948  |
-| SelectKBest (f_classif)  | 178 | 	0.6701986755  |
-| SelectKBest (mutual_info_regression) | 178 | 	0.5046728972  |
-|  RFE | 178 |	0.6614173228  |
-|  RFE | 18 |  0.6563706564 |
+| All features | 710 | 	0.5501672241  |
+| SelectKBest (f_classif)  | 178 | 	0.5158227848 |
+| SelectKBest (mutual_info_regression) | 178 | 	0.5090218424 |
+|  RFE | 178 |	0.5389121339 |
+|  RFE | 18 |  0.5520134228 |
 
 
 </div>
 
 
-
-Feature selection function	Number of features	F1 score
-All features	710	0.5501672241
-SelectKBest (f_classif)	178	0.5158227848
-SelectKBest (mutual_info_regression)	178	0.5090218424
-RFE	178	0.5389121339
-RFE	18	0.5520134228
 
 Several other machine learning algorithms were compared on all features of the dataset to determine the ones to be used. The results are presented in Tables XV and XVI. For the Fire IncidentGroup, the XGBClassifier was chosen as the second algorithm, while for the False Alarm IncidentGroup, the RandomForestClassifier provided the best overall result before hyperparameter tuning.
 
