@@ -137,15 +137,25 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the False Alarm 
 
 Several other machine learning algorithms were compared on all features of the dataset to determine the ones to be used. The results are presented in Tables XV and XVI. For the Fire IncidentGroup, the XGBClassifier was chosen as the second algorithm, while for the False Alarm IncidentGroup, the RandomForestClassifier provided the best overall result before hyperparameter tuning.
 
-
-
-TABLE XV
+<div align="center"> TABLE V  
+  
 Machine Learning Algorithms’ Performance for the Fire IncidentGroup
-Algorithm	Accuracy	F1 score
-LogisticRegression	0.8786558805227132	0.7022900763358778
-RandomForestClassifier	0.8686994399502178	0.6602254428341385
-GradientBoostingClassifier	0.8742999377722465	0.6833855799373041
-XGBClassifier	0.8755444928438083	0.6978851963746224
+
+|**Algorithm** | **Accuracy** |**F1 score** |
+|--------------|--------------|--------------|
+| LogisticRegression  | 0.8786558805227132 | 0.7022900763358778  |
+|  RandomForestClassifier		 | 0.8686994399502178 | 0.6602254428341385  |
+| GradientBoostingClassifier  | 0.8742999377722465  |  0.6833855799373041 |
+|  XGBClassifier |0.8755444928438083 | 0.6978851963746224  |
+|   |  |   |
+
+
+</div>
+
+		
+
+		
+		
 
 TABLE XVI
 Machine Learning Algorithms’ Performance for the False Alarm IncidentGroup
