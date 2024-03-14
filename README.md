@@ -99,7 +99,7 @@ RFE Feature Importance for the False Alarm IncidentGroup
 
 
 Due to the application of the One Hot Encoding method, the feature selection functions selected the encoded features, i.e. the specific values of the categorical features. 
-The Decision Tree algorithm was run with each selection of features. F1 score (binary) and accuracy were chosen as the evaluation metrics. The output of the algorithm is present in Tables XIII and XIV. The SelectKBest (f_classif) function provided the highest F1 score for the Fire IncidentGroup and RFE with 18 selected features for the False Alarm IncidentGroup.
+The Decision Tree algorithm was run with each selection of features. F1 score (binary) and accuracy were chosen as the evaluation metrics. The output of the algorithm is present in Tables III and IV. The SelectKBest (f_classif) function provided the highest F1 score for the Fire IncidentGroup and RFE with 18 selected features for the False Alarm IncidentGroup.
 
 
 <div align="center"> TABLE III  
@@ -135,7 +135,7 @@ Feature Sets’ Performance for the Decision Tree Algorithm for the False Alarm 
 
  
 
-Several other machine learning algorithms were compared on all features of the dataset to determine the ones to be used. The results are presented in Tables XV and XVI. For the Fire IncidentGroup, the XGBClassifier was chosen as the second algorithm, while for the False Alarm IncidentGroup, the RandomForestClassifier provided the best overall result before hyperparameter tuning.
+Several other machine learning algorithms were compared on all features of the dataset to determine the ones to be used. The results are presented in Tables V and VI. For the Fire IncidentGroup, the XGBClassifier was chosen as the second algorithm, while for the False Alarm IncidentGroup, the RandomForestClassifier provided the best overall result before hyperparameter tuning.
 
 <div align="center"> TABLE V  
   
@@ -147,23 +147,27 @@ Machine Learning Algorithms’ Performance for the Fire IncidentGroup
 |  RandomForestClassifier		 | 0.8686994399502178 | 0.6602254428341385  |
 | GradientBoostingClassifier  | 0.8742999377722465  |  0.6833855799373041 |
 |  XGBClassifier |0.8755444928438083 | 0.6978851963746224  |
-|   |  |   |
-
-
 </div>
 
 		
-
-		
-		
-
-TABLE XVI
+<div align="center"> TABLE VI  
+  
 Machine Learning Algorithms’ Performance for the False Alarm IncidentGroup
-Algorithm	Accuracy	F1 score
-LogisticRegression	0.7299315494710641	0.5905660377358491
-RandomForestClassifier	0.7454884878655881	0.5930348258706468
-GradientBoostingClassifier	0.7479775980087119	0.5829042224510814
-XGBClassifier	0.7280647168637212	0.5563451776649746
+
+|**Algorithm** | **Accuracy** |**F1 score** |
+|--------------|--------------|--------------|
+| LogisticRegression  | |   |
+|  RandomForestClassifier		 | |   |
+| GradientBoostingClassifier  | |   |
+|  XGBClassifier  | |   |
+</div>
+		
+		
+
+	0.7299315494710641	0.5905660377358491
+	0.7454884878655881	0.5930348258706468
+	0.7479775980087119	0.5829042224510814
+	0.7280647168637212	0.5563451776649746
 
 The feature sets were evaluated with the untuned secondary models chosen (Tables XVII and XVIII). The RFE-selected features provided higher performance for XGBClassifier and the SelectKBest with f_classif for RandomForestClassifier. 
 
