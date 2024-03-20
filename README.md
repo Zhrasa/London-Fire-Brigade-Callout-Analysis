@@ -176,20 +176,27 @@ Feature Sets’ Performance for the Extreme Gradient Boosting Algorithm for the 
 |**Feature selection function**| **Number of features** | **Accuracy** |**F1 score** |
 |--------------|--------------|--------------|--------------|
 |  All features | 710  |  0.8755444928438083 | 0.6978851963746224  |
-| SelectKBest, f_classif  |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
+| SelectKBest, f_classif  |  178 |  0.8724331051649036 | 0.6870229007633588  |
+|  SelectKBest, mutual_info_regression |  178 | 0.8630989421281892  | 0.6283783783783783  |
+|  RFE | 178  | 0.8855009334163036  | 0.7378917378917379  |
+| RFE  |  18 | 0.8830118232731798  |  0.7329545454545454 |
 
 </div>
+		
 
+<div align="center"> TABLE VII  
+  
+Feature Sets’ Performance for the Extreme Gradient Boosting Algorithm for the Fire IncidentGroup
 
-			
-	178	0.8724331051649036	0.6870229007633588
-SelectKBest, mutual_info_regression	178	0.8630989421281892	0.6283783783783783
-RFE	178	0.8855009334163036	0.7378917378917379
-RFE	18	0.8830118232731798	0.7329545454545454
+|**Feature selection function**| **Number of features** | **Accuracy** |**F1 score** |
+|--------------|--------------|--------------|--------------|
+|  All features | 710  |  0.8755444928438083 | 0.6978851963746224  |
+| SelectKBest, f_classif  |  178 |  0.8724331051649036 | 0.6870229007633588  |
+|  SelectKBest, mutual_info_regression |  178 | 0.8630989421281892  | 0.6283783783783783  |
+|  RFE | 178  | 0.8855009334163036  | 0.7378917378917379  |
+| RFE  |  18 | 0.8830118232731798  |  0.7329545454545454 |
 
+</div>
 TABLE XVIII
 Feature Sets’ Performance for the Random Forest Algorithm for the False Alarm IncidentGroup
 Feature selection function	Number of features	Accuracy	F1 score
