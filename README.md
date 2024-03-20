@@ -156,18 +156,15 @@ Machine Learning Algorithms’ Performance for the False Alarm IncidentGroup
 
 |**Algorithm** | **Accuracy** |**F1 score** |
 |--------------|--------------|--------------|
-| LogisticRegression  | |   |
-|  RandomForestClassifier		 | |   |
-| GradientBoostingClassifier  | |   |
-|  XGBClassifier  | |   |
+| LogisticRegression  | 0.7299315494710641|  	0.5905660377358491 |
+|  RandomForestClassifier		 |0.7454884878655881 | 	0.5930348258706468 |
+| GradientBoostingClassifier  | 0.7479775980087119| 	0.5829042224510814 |
+|  XGBClassifier  |0.7280647168637212 | 0.5563451776649746  |
 </div>
 		
 		
 
-	0.7299315494710641	0.5905660377358491
-	0.7454884878655881	0.5930348258706468
-	0.7479775980087119	0.5829042224510814
-	0.7280647168637212	0.5563451776649746
+		
 
 The feature sets were evaluated with the untuned secondary models chosen (Tables XVII and XVIII). The RFE-selected features provided higher performance for XGBClassifier and the SelectKBest with f_classif for RandomForestClassifier. 
 
