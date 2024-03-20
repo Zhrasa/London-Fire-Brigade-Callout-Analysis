@@ -184,10 +184,9 @@ Feature Sets’ Performance for the Extreme Gradient Boosting Algorithm for the 
 </div>
 		
 
-<div align="center"> TABLE VII  
+<div align="center"> TABLE VIII  
   
-Feature Sets’ Performance for the Extreme Gradient Boosting Algorithm for the Fire IncidentGroup
-
+Feature Sets’ Performance for the Random Forest Algorithm for the False Alarm IncidentGroup
 |**Feature selection function**| **Number of features** | **Accuracy** |**F1 score** |
 |--------------|--------------|--------------|--------------|
 |  All features | 710  |  0.8755444928438083 | 0.6978851963746224  |
@@ -197,8 +196,7 @@ Feature Sets’ Performance for the Extreme Gradient Boosting Algorithm for the 
 | RFE  |  18 | 0.8830118232731798  |  0.7329545454545454 |
 
 </div>
-TABLE XVIII
-Feature Sets’ Performance for the Random Forest Algorithm for the False Alarm IncidentGroup
+
 Feature selection function	Number of features	Accuracy	F1 score
 All features	710	0.7492221530802738	0.5957873620862588
 SelectKBest, f_classif	178	0.7417548226509023	0.6153846153846154
