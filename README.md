@@ -74,7 +74,7 @@ RFE Feature Importance for the Fire IncidentGroup
 | Month | 0.02 |
 | AddressQualifier | 0.01 |
 </div>
- ========
+
 
 <div align="center"> TABLE II  
   
@@ -168,9 +168,22 @@ Machine Learning Algorithms’ Performance for the False Alarm IncidentGroup
 
 The feature sets were evaluated with the untuned secondary models chosen (Tables XVII and XVIII). The RFE-selected features provided higher performance for XGBClassifier and the SelectKBest with f_classif for RandomForestClassifier. 
 
-TABLE XVII
+
+<div align="center"> TABLE VII  
+  
 Feature Sets’ Performance for the Extreme Gradient Boosting Algorithm for the Fire IncidentGroup
-Feature selection function	Number of features	Accuracy	F1 score
+
+|**Feature selection function**| **Number of features** | **Accuracy** |**F1 score** |
+|--------------|--------------|--------------|--------------|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+
+</div>
+
+
 All features	710	0.8755444928438083	0.6978851963746224
 SelectKBest, f_classif	178	0.8724331051649036	0.6870229007633588
 SelectKBest, mutual_info_regression	178	0.8630989421281892	0.6283783783783783
