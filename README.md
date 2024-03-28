@@ -187,18 +187,18 @@ Feature Sets’ Performance for the Extreme Gradient Boosting Algorithm for the 
 <div align="center"> TABLE VIII  
   
 Feature Sets’ Performance for the Random Forest Algorithm for the False Alarm IncidentGroup
+
 |**Feature selection function**| **Number of features** | **Accuracy** |**F1 score** |
 |--------------|--------------|--------------|--------------|
-|  All features | 710  |  0.8755444928438083 | 0.6978851963746224  |
-| SelectKBest, f_classif  |  178 |  0.8724331051649036 | 0.6870229007633588  |
-|  SelectKBest, mutual_info_regression |  178 | 0.8630989421281892  | 0.6283783783783783  |
-|  RFE | 178  | 0.8855009334163036  | 0.7378917378917379  |
-| RFE  |  18 | 0.8830118232731798  |  0.7329545454545454 |
+|  All features | 710  | 0.7492221530802738  | 0.5957873620862588  |
+| SelectKBest, f_classif  |  178  |   |   |
+|  SelectKBest, mutual_info_regression |  178  |   |   |
+|  RFE | 178  |   |   |
+| RFE  |  18  |   |   |
 
 </div>
 
-Feature selection function	Number of features	Accuracy	F1 score
-All features	710	0.7492221530802738	0.5957873620862588
+		
 SelectKBest, f_classif	178	0.7417548226509023	0.6153846153846154
 SelectKBest, mutual_info_regression	178	0.6969508400746733	0.5616561656165616
 RFE	178	0.7367766023646546	0.5774225774225774
