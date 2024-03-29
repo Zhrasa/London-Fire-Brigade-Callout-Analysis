@@ -191,18 +191,14 @@ Feature Sets’ Performance for the Random Forest Algorithm for the False Alarm 
 |**Feature selection function**| **Number of features** | **Accuracy** |**F1 score** |
 |--------------|--------------|--------------|--------------|
 |  All features | 710  | 0.7492221530802738  | 0.5957873620862588  |
-| SelectKBest, f_classif  |  178  |   |   |
-|  SelectKBest, mutual_info_regression |  178  |   |   |
-|  RFE | 178  |   |   |
-| RFE  |  18  |   |   |
+| SelectKBest, f_classif  |  178  | 0.7417548226509023  | 0.6153846153846154  |
+|  SelectKBest, mutual_info_regression |  178  | 	0.6969508400746733	  | 0.5616561656165616  |
+|  RFE | 178  |  0.7367766023646546 |  0.5774225774225774 |
+| RFE  |  18  | 0.7392657125077785	  |  0.5814185814185814 |
 
 </div>
 
-		
-SelectKBest, f_classif	178	0.7417548226509023	0.6153846153846154
-SelectKBest, mutual_info_regression	178	0.6969508400746733	0.5616561656165616
-RFE	178	0.7367766023646546	0.5774225774225774
-RFE	18	0.7392657125077785	0.5814185814185814
+
 
 The hyperparameter tuning is described in the following subsection, Model Parameters. 
 
