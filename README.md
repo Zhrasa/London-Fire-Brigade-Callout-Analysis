@@ -202,40 +202,41 @@ Feature Sets’ Performance for the Random Forest Algorithm for the False Alarm 
 
 The hyperparameter tuning is described in the following subsection, Model Parameters. 
 
-3.1.2. PropertyCategory and IncidentGroup Association Analysis
+#### PropertyCategory and IncidentGroup Association Analysis
 Tables XIX and XX demonstrate the association between the IncidentGroup and PropertyCategory features. It was assumed that the data had been entered correctly and the outliers were natural, as opposed to data entry errors.
 
+<div align="center"> TABLE IX  
 
-
-
-TABLE XIX
 Association Between IncidentGroup and PropertyCategory (with Outliers)
-PropertyCategory	IncidentGroup	Fr_PC	Fr_IG	Fr_Itemset	FrP_PC	FrP_IG	Support	Conf_PC->IG	Conf_IG->PC
-Aircraft	Special Service	1	4886	1	100.00	0.02	0.01	100.00	0.02
-Outdoor Structure	Fire	707	2777	574	81.19	20.67	4.46	81.19	20.67
-Other Residential	False Alarm	544	5198	430	79.04	8.27	3.34	79.04	8.27
-Non Residential	False Alarm	2313	5198	1710	73.93	32.90	13.30	73.93	32.90
-Road Vehicle	Special Service	1152	4886	747	64.84	15.29	5.81	64.84	15.29
-Outdoor	Fire	1476	2777	892	60.43	32.12	6.94	60.43	32.12
-Boat	Special Service	5	4886	3	60.00	0.06	0.02	60.00	0.06
-Rail Vehicle	Special Service	7	4886	4	57.14	0.08	0.03	57.14	0.08
-Dwelling	Special Service	6656	4886	3290	49.43	67.34	25.58	49.43	67.34
-Dwelling	False Alarm	6656	5198	2642	39.69	50.83	20.54	39.69	50.83
-Rail Vehicle	Fire	7	2777	2	28.57	0.07	0.02	28.57	0.07
-Road Vehicle	Fire	1152	2777	317	27.52	11.42	2.46	27.52	11.42
-Outdoor	Special Service	1476	4886	336	22.76	6.88	2.61	22.76	6.88
-Boat	False Alarm	5	5198	1	20.00	0.02	0.01	20.00	0.02
-Boat	Fire	5	2777	1	20.00	0.04	0.01	20.00	0.04
-Outdoor	False Alarm	1476	5198	248	16.80	4.77	1.93	16.80	4.77
-Non Residential	Special Service	2313	4886	377	16.30	7.72	2.93	16.30	7.72
-Rail Vehicle	False Alarm	7	5198	1	14.29	0.02	0.01	14.29	0.02
-Other Residential	Special Service	544	4886	73	13.42	1.49	0.57	13.42	1.49
-Outdoor Structure	False Alarm	707	5198	78	11.03	1.50	0.61	11.03	1.50
-Dwelling	Fire	6656	2777	724	10.88	26.07	5.63	10.88	26.07
-Non Residential	Fire	2313	2777	226	9.77	8.14	1.76	9.77	8.14
-Outdoor Structure	Special Service	707	4886	55	7.78	1.13	0.43	7.78	1.13
-Road Vehicle	False Alarm	1152	5198	88	7.64	1.69	0.68	7.64	1.69
-Other Residential	Fire	544	2777	41	7.54	1.48	0.32	7.54	1.48
+
+| **PropertyCategory**  | **IncidentGroup** | **Fr_PC** | **Fr_IG** | **Fr_Itemset** | **FrP_PC** | **FrP_IG** | **Support** | **Conf_PC->IG** | **Conf_IG->PC** |
+|-----------------------|------------------|-----------|-----------|----------------|------------|------------|-------------|-----------------|-----------------|
+| Aircraft              | Special Service  | 1         | 4886      | 1              | 100.00     | 0.02       | 0.01        | 100.00          | 0.02            |
+| Outdoor Structure     | Fire             | 707       | 2777      | 574            | 81.19      | 20.67      | 4.46        | 81.19           | 20.67           |
+| Other Residential     | False Alarm      | 544       | 5198      | 430            | 79.04      | 8.27       | 3.34        | 79.04           | 8.27            |
+| Non Residential       | False Alarm      | 2313      | 5198      | 1710           | 73.93      | 32.90      | 13.30       | 73.93           | 32.90           |
+| Road Vehicle          | Special Service  | 1152      | 4886      | 747            | 64.84      | 15.29      | 5.81        | 64.84           | 15.29           |
+| Outdoor               | Fire             | 1476      | 2777      | 892            | 60.43      | 32.12      | 6.94        | 60.43           | 32.12           |
+| Boat                  | Special Service  | 5         | 4886      | 3              | 60.00      | 0.06       | 0.02        | 60.00           | 0.06            |
+| Rail Vehicle          | Special Service  | 7         | 4886      | 4              | 57.14      | 0.08       | 0.03        | 57.14           | 0.08            |
+| Dwelling              | Special Service  | 6656      | 4886      | 3290           | 49.43      | 67.34      | 25.58       | 49.43           | 67.34           |
+| Dwelling              | False Alarm      | 6656      | 5198      | 2642           | 39.69      | 50.83      | 20.54       | 39.69           | 50.83           |
+| Rail Vehicle          | Fire             | 7         | 2777      | 2              | 28.57      | 0.07       | 0.02        | 28.57           | 0.07            |
+| Road Vehicle          | Fire             | 1152      | 2777      | 317            | 27.52      | 11.42      | 2.46        | 27.52           | 11.42           |
+| Outdoor               | Special Service  | 1476      | 4886      | 336            | 22.76      | 6.88       | 2.61        | 22.76           | 6.88            |
+| Boat                  | False Alarm      | 5         | 5198      | 1              | 20.00      | 0.02       | 0.01        | 20.00           | 0.02            |
+| Boat                  | Fire             | 5         | 2777      | 1              | 20.00      | 0.04       | 0.01        | 20.00           | 0.04            |
+| Outdoor               | False Alarm      | 1476      | 5198      | 248            | 16.80      | 4.77       | 1.93        | 16.80           | 4.77            |
+| Non Residential       | Special Service  | 2313      | 4886      | 377            | 16.30      | 7.72       | 2.93        | 16.30           | 7.72            |
+| Rail Vehicle          | False Alarm      | 7         | 5198      | 1              | 14.29      | 0.02       | 0.01        | 14.29           | 0.02            |
+| Other Residential     | Special Service  | 544       | 4886      | 73             | 13.42      | 1.49       | 0.57        | 13.42           | 1.49            |
+| Outdoor Structure     | False Alarm      | 707       | 5198      | 78             | 11.03      | 1.50       | 0.61        | 11.03           | 1.50            |
+| Dwelling              | Fire             | 6656      | 2777      | 724            | 10.88      | 26.07      | 5.63        | 10.88           | 26.07           |
+| Non Residential       | Fire             | 2313      | 2777      | 226            | 9.77       | 8.14       | 1.76        | 9.77            | 8.14            |
+| Outdoor Structure     | Special Service  | 707       | 4886      | 55             | 7.78       | 1.13       | 0.43        | 7.78            | 1.13            |
+| Road Vehicle          | False Alarm      | 1152      | 5198      | 88             | 7.64       | 1.69       | 0.68        | 7.64            | 1.69            |
+| Other Residential     | Fire             | 544       | 2777      | 41             | 7.54       | 1.48       | 0.32        | 7.54            | 1.48            |
+
   
 TABLE XX
 Association Between IncidentGroup and PropertyCategory (without Outliers)
