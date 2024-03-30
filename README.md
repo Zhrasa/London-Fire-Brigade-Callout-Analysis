@@ -236,30 +236,35 @@ Association Between IncidentGroup and PropertyCategory (with Outliers)
 | Outdoor Structure     | Special Service  | 707       | 4886      | 55             | 7.78       | 1.13       | 0.43        | 7.78            | 1.13            |
 | Road Vehicle          | False Alarm      | 1152      | 5198      | 88             | 7.64       | 1.69       | 0.68        | 7.64            | 1.69            |
 | Other Residential     | Fire             | 544       | 2777      | 41             | 7.54       | 1.48       | 0.32        | 7.54            | 1.48            |
+</div>
+  <div align="center"> TABLE X
 
-  
-TABLE XX
 Association Between IncidentGroup and PropertyCategory (without Outliers)
-PropertyCategory	IncidentGroup	Fr_PC	Fr_IG	Fr_Itemset	FrP_PC	FrP_IG	Support	Conf_PC->IG	Conf_IG->PC
-Outdoor Structure	Fire	230	1273	209	90.87	16.42	2.88	90.87	16.42
-Other Residential	False Alarm	229	2585	195	85.15	7.54	2.69	85.15	7.54
-Non Residential	False Alarm	472	2585	401	84.96	15.51	5.53	84.96	15.51
-Road Vehicle	Special Service	698	3389	500	71.63	14.75	6.90	71.63	14.75
-Outdoor	Fire	680	1273	379	55.74	29.77	5.23	55.74	29.77
-Dwelling	Special Service	4938	3389	2627	53.20	77.52	36.25	53.20	77.52
-Dwelling	False Alarm	4938	2585	1821	36.88	70.44	25.13	36.88	70.44
-Outdoor	Special Service	680	3389	192	28.24	5.67	2.65	28.24	5.67
-Road Vehicle	Fire	698	1273	158	22.64	12.41	2.18	22.64	12.41
-Outdoor	False Alarm	680	2585	109	16.03	4.22	1.50	16.03	4.22
-Non Residential	Special Service	472	3389	51	10.81	1.50	0.70	10.81	1.50
-Dwelling	Fire	4938	1273	490	9.92	38.49	6.76	9.92	38.49
-Outdoor Structure	False Alarm	230	2585	19	8.26	0.74	0.26	8.26	0.74
-Other Residential	Fire	229	1273	17	7.42	1.34	0.23	7.42	1.34
-Other Residential	Special Service	229	3389	17	7.42	0.50	0.23	7.42	0.50
-Road Vehicle	False Alarm	698	2585	40	5.73	1.55	0.55	5.73	1.55
-Non Residential	Fire	472	1273	20	4.24	1.57	0.28	4.24	1.57
-Outdoor Structure	Special Service	230	3389	2	0.87	0.06	0.03	0.87	0.06
 
+| **PropertyCategory**  | **IncidentGroup** | **Fr_PC** | **Fr_IG** | **Fr_Itemset** | **FrP_PC** | **FrP_IG** | **Support** | **Conf_PC->IG** | **Conf_IG->PC** |
+|-----------------------|------------------|-----------|-----------|----------------|------------|------------|-------------|-----------------|-----------------|
+| Outdoor Structure     | Fire             | 230       | 1273      | 209            | 90.87      | 16.42      | 2.88        | 90.87           | 16.42           |
+| Other Residential     | False Alarm      | 229       | 2585      | 195            | 85.15      | 7.54       | 2.69        | 85.15           | 7.54            |
+| Non Residential       | False Alarm      | 472       | 2585      | 401            | 84.96      | 15.51      | 5.53        | 84.96           | 15.51           |
+| Road Vehicle          | Special Service  | 698       | 3389      | 500            | 71.63      | 14.75      | 6.90        | 71.63           | 14.75           |
+| Outdoor               | Fire             | 680       | 1273      | 379            | 55.74      | 29.77      | 5.23        | 55.74           | 29.77           |
+| Dwelling              | Special Service  | 4938      | 3389      | 2627           | 53.20      | 77.52      | 36.25       | 53.20           | 77.52           |
+| Dwelling              | False Alarm      | 4938      | 2585      | 1821           | 36.88      | 70.44      | 25.13       | 36.88           | 70.44           |
+| Outdoor               | Special Service  | 680       | 3389      | 192            | 28.24      | 5.67       | 2.65        | 28.24           | 5.67            |
+| Road Vehicle          | Fire             | 698       | 1273      | 158            | 22.64      | 12.41      | 2.18        | 22.64           | 12.41           |
+| Outdoor               | False Alarm      | 680       | 2585      | 109            | 16.03      | 4.22       | 1.50        | 16.03           | 4.22            |
+| Non Residential       | Special Service  | 472       | 3389      | 51             | 10.81      | 1.50       | 0.70        | 10.81           | 1.50            |
+| Dwelling              | Fire             | 4938      | 1273      | 490            | 9.92       | 38.49      | 6.76        | 9.92            | 38.49           |
+| Outdoor Structure     | False Alarm      | 230       | 2585      | 19             | 8.26       | 0.74       | 0.26        | 8.26            | 0.74            |
+| Other Residential     | Fire             | 229       | 1273      | 17             | 7.42       | 1.34       | 0.23        | 7.42            | 1.34            |
+| Other Residential     | Special Service  | 229       | 3389      | 17             | 7.42       | 0.50       | 0.23        | 7.42            | 0.50            |
+| Road Vehicle          | False Alarm      | 698       | 2585      | 40             | 5.73       | 1.55       | 0.55        | 5.73            | 1.55            |
+| Non Residential       | Fire             | 472       | 1273      | 20             | 4.24       | 1.57       | 0.28        | 4.24            | 1.57            |
+| Outdoor Structure     | Special Service  | 230       | 3389      | 2              | 0.87       | 0.06       | 0.03        | 0.87            | 0.06            |
+
+
+
+</div>
 The itemsets where the support of the IncidentGroup and PropertyCategory itemsets was greater than 1 and Confidence_PC was greater than 50 are present in Tables XXI and XXII. It can be said that in the dataset without outliers and with support above the threshold, there was a clear connection between Dwellings and Road Vehicles requiring Special Services, Outdoor and Outdoor Structures and Fires, and Non-Residential and Other Residential and False Alarms. 
 
 TABLE XXI
