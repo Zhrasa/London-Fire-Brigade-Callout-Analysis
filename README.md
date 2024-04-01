@@ -263,7 +263,6 @@ Association Between IncidentGroup and PropertyCategory (without Outliers)
 | Outdoor Structure     | Special Service  | 230       | 3389      | 2              | 0.87       | 0.06       | 0.03        | 0.87            | 0.06            |
 
 
-
 </div>
 The itemsets where the support of the IncidentGroup and PropertyCategory itemsets was greater than 1 and Confidence_PC was greater than 50 are present in Tables XXI and XXII. It can be said that in the dataset without outliers and with support above the threshold, there was a clear connection between Dwellings and Road Vehicles requiring Special Services, Outdoor and Outdoor Structures and Fires, and Non-Residential and Other Residential and False Alarms. 
 
