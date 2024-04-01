@@ -266,28 +266,32 @@ Association Between IncidentGroup and PropertyCategory (without Outliers)
 </div>
 The itemsets where the support of the IncidentGroup and PropertyCategory itemsets was greater than 1 and Confidence_PC was greater than 50 are present in Tables XXI and XXII. It can be said that in the dataset without outliers and with support above the threshold, there was a clear connection between Dwellings and Road Vehicles requiring Special Services, Outdoor and Outdoor Structures and Fires, and Non-Residential and Other Residential and False Alarms. 
 
+
+
+  <div align="center">
 TABLE XXI
 Association Between IncidentGroup and PropertyCategory 
 (with Outliers, Support > 1 & Conf_PC->IG > 50) 
-PropertyCategory	IncidentGroup	Fr_PC	Fr_IG	Fr_Itemset	FrP_PC	FrP_IG	Support	Conf_PC->IG	Conf_IG->PC
-Non Residential	False Alarm	2313	5198	1710	73.93	32.90	13.30	73.93	32.90
-Outdoor	Fire	1476	2777	892	60.43	32.12	6.94	60.43	32.12
-Road Vehicle	Special Service	1152	4886	747	64.84	15.29	5.81	64.84	15.29
-Outdoor Structure	Fire	707	2777	574	81.19	20.67	4.46	81.19	20.67
-Other Residential	False Alarm	544	5198	430	79.04	8.27	3.34	79.04	8.27
 
-TABLE XXII
+| **PropertyCategory**  | **IncidentGroup** | **Fr_PC** | **Fr_IG** | **Fr_Itemset** | **FrP_PC** | **FrP_IG** | **Support** | **Conf_PC->IG** | **Conf_IG->PC** |
+|-----------------------|------------------|-----------|-----------|----------------|------------|------------|-------------|-----------------|-----------------|
+| Non Residential       | False Alarm      | 2313      | 5198      | 1710           | 73.93      | 32.90      | 13.30       | 73.93           | 32.90           |
+| Outdoor               | Fire             | 1476      | 2777      | 892            | 60.43      | 32.12      | 6.94        | 60.43           | 32.12           |
+| Road Vehicle          | Special Service  | 1152      | 4886      | 747            | 64.84      | 15.29      | 5.81        | 64.84           | 15.29           |
+| Outdoor Structure     | Fire             | 707       | 2777      | 574            | 81.19      | 20.67      | 4.46        | 81.19           | 20.67           |
+| Other Residential     | False Alarm      | 544       | 5198      | 430            | 79.04      | 8.27       | 3.34        | 79.04           | 8.27            |
+
+</div>
+
+  <div align="center"> TABLE XII
+
 Association Between IncidentGroup and PropertyCategory 
 (without Outliers, Support > 1 & Conf_PC-IG > 50) 
-PropertyCategory	IncidentGroup	Fr_PC	Fr_IG	Fr_Itemset	FrP_PC	FrP_IG	Support	Conf_PC->IG	Conf_IG->PC
-Dwelling	Special Service	4938	3389	2627	53.20	77.52	36.25	53.20	77.52
-Road Vehicle	Special Service	698	3389	500	71.63	14.75	6.90	71.63	14.75
-Non Residential	False Alarm	472	2585	401	84.96	15.51	5.53	84.96	15.51
-Outdoor	Fire	680	1273	379	55.74	29.77	5.23	55.74	29.77
-Outdoor Structure	Fire	230	1273	209	90.87	16.42	2.88	90.87	16.42
-Other Residential	False Alarm	229	2585	195	85.15	7.54	2.69	85.15	7.54
 
-3.1.3. Geographical and Temporal Feature Analysis
+
+</div>
+
+#### Geographical and Temporal Feature Analysis
 In order to determine whether there was a connection between Bank Holidays, Fires, and False Alarms, a scatter plot was used (Fig. 3.1, 3.2). Regardless of the outliers, there was no noticeable difference in the number of incidents of any type.
 
  
