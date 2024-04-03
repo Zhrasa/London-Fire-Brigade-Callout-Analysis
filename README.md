@@ -287,6 +287,14 @@ Association Between IncidentGroup and PropertyCategory
 
 Association Between IncidentGroup and PropertyCategory 
 (without Outliers, Support > 1 & Conf_PC-IG > 50) 
+| **PropertyCategory**  | **IncidentGroup** | **Fr_PC** | **Fr_IG** | **Fr_Itemset** | **FrP_PC** | **FrP_IG** | **Support** | **Conf_PC->IG** | **Conf_IG->PC** |
+|-----------------------|------------------|-----------|-----------|----------------|------------|------------|-------------|-----------------|-----------------|
+| Dwelling              | Special Service  | 4938      | 3389      | 2627           | 53.20      | 77.52      | 36.25       | 53.20           | 77.52           |
+| Road Vehicle          | Special Service  | 698       | 3389      | 500            | 71.63      | 14.75      | 6.90        | 71.63           | 14.75           |
+| Non Residential       | False Alarm      | 472       | 2585      | 401            | 84.96      | 15.51      | 5.53        | 84.96           | 15.51           |
+| Outdoor               | Fire             | 680       | 1273      | 379            | 55.74      | 29.77      | 5.23        | 55.74           | 29.77           |
+| Outdoor Structure     | Fire             | 230       | 1273      | 209            | 90.87      | 16.42      | 2.88        | 90.87           | 16.42           |
+| Other Residential     | False Alarm      | 229       | 2585      | 195            | 85.15      | 7.54       | 2.69        | 85.15           | 7.54            |
 
 
 </div>
