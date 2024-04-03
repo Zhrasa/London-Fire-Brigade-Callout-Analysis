@@ -268,8 +268,8 @@ The itemsets where the support of the IncidentGroup and PropertyCategory itemset
 
 
 
-  <div align="center">
-TABLE XXI
+  <div align="center"> TABLE XXI
+  
 Association Between IncidentGroup and PropertyCategory 
 (with Outliers, Support > 1 & Conf_PC->IG > 50) 
 
