@@ -269,7 +269,7 @@ The itemsets where the support of the IncidentGroup and PropertyCategory itemset
 
 
   <div align="center"> TABLE XXI
-  
+
 Association Between IncidentGroup and PropertyCategory 
 (with Outliers, Support > 1 & Conf_PC->IG > 50) 
 
@@ -299,7 +299,8 @@ Association Between IncidentGroup and PropertyCategory
 
 </div>
 
-#### Geographical and Temporal Feature Analysis
+
+#### Geographical and Temporal Feature  Analysis
 In order to determine whether there was a connection between Bank Holidays, Fires, and False Alarms, a scatter plot was used (Fig. 3.1, 3.2). Regardless of the outliers, there was no noticeable difference in the number of incidents of any type.
 
 ![image](https://github.com/user-attachments/assets/787d48ce-dd26-462c-8aee-1a0a29c087ca)
