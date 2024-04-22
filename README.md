@@ -311,15 +311,14 @@ In order to determine whether there was a connection between Bank Holidays, Fire
 <div align="center">   Fig. The scatter plot with outliers. </div>
 
 
-
 ![image](https://github.com/user-attachments/assets/7b655694-aac7-45e3-8723-3c63670d2a7c)
 
 <div align="center"> The scatter plot with outliers.  </div>
 
-As for the geographical features, it was determined that there were fewer fires and false alarms at parks (Fig. 1.6).
+As for the geographical features, it was determined that there were fewer fires and false alarms at parks.
 
-3.1.4. IncidentStationGround and FirstPumpArriving_DeployedFromStation Analysis
-The entries where FirstPumpArriving_DeployedFromStation was not null, including the outliers, were chosen for the analysis and the dataset was split into two sets - one with the IncidentStationGround and FirstPumpArriving_DeployedFromStation matching and the other with them being different. The scatter plots with the locations of the incidents were based on the IncidentStationGround and FirstPumpArriving_DeployedFromStation (Fig. 3.3 and 3.4). A cluster of incidents is visible on the northern part of the border between East Greenwich and Plumstead station grounds. 
+#### IncidentStationGround and FirstPumpArriving_DeployedFromStation Analysis
+The entries where FirstPumpArriving_DeployedFromStation was not null, including the outliers, were chosen for the analysis and the dataset was split into two sets - one with the IncidentStationGround and FirstPumpArriving_DeployedFromStation matching and the other with them being different. The scatter plots with the locations of the incidents were based on the IncidentStationGround and FirstPumpArriving_DeployedFromStation (Fig. above). A cluster of incidents is visible on the northern part of the border between East Greenwich and Plumstead station grounds. 
 
  ![image](https://github.com/user-attachments/assets/14f9d35f-b232-4b6b-b81c-81de98408316)
 
