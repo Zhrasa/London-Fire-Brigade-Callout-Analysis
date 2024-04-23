@@ -331,8 +331,11 @@ The entries where FirstPumpArriving_DeployedFromStation was not null, including 
 
 The description of the numerical features of the datasets did not show a significant difference in most features, except FirstPumpArriving_AttendanceTime where the parameters were from 27 to 100% higher (Table XXIII). For the categorical features, only Ward, IncidentStationGround, and FirstPumpArriving_DeployedFromStation were different between the datasets (Table XXIV).
 
-TABLE XXIII
+<div align="center"> TABLE XXIII
+
 Dataset Descriptions (Numeric)
+
+ </div>
 
 
 
