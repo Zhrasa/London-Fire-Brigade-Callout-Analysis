@@ -424,6 +424,24 @@ The association analysis between IncidentStationGround and FirstPumpArriving_Dep
 TABLE XXV
 Association Between IncidentStationGround and FirstPumpArriving_DeployedFromStation 
 (with Outliers, Conf_ISG->FP > 50 or Conf_FP->ISG > 50) 
+| **IncidentStation Ground** | **FirstPumpArriving_ DeployedFromStation** | **Fr_ISG** | **Fr_FP** | **Fr_Itemset** | **FrP_ISG** | **FrP_FP** | **Support** | **Conf_ISG->FP** | **Conf_FP->ISG** |
+|----------------------------|--------------------------------------------|------------|-----------|----------------|-------------|------------|-------------|-----------------|-----------------|
+| Plumstead                  | Erith                                       | 4,911      | 174       | 173            | 3.52        | 99.43      | 1.42        | 3.52            | 99.43           |
+| Eltham                     | Sidcup                                      | 2,045      | 180       | 163            | 7.97        | 90.56      | 1.34        | 7.97            | 90.56           |
+| Greenwich                  | Lewisham                                    | 1,032      | 103       | 55             | 5.33        | 53.40      | 0.45        | 5.33            | 53.40           |
+| Plumstead                  | Bexley                                      | 4,911      | 36        | 31             | 0.63        | 86.11      | 0.25        | 0.63            | 86.11           |
+| East Greenwich             | Poplar                                      | 3,232      | 28        | 27             | 0.84        | 96.43      | 0.22        | 0.84            | 96.43           |
+| Greenwich                  | New Cross                                   | 1,032      | 21        | 15             | 1.45        | 71.43      | 0.12        | 1.45            | 71.43           |
+| Erith                      | Plumstead                                   | 4          | 4,681     | 4              | 100.00      | 0.09       | 0.03        | 100.00          | 0.09            |
+| East Greenwich             | Millwall                                    | 3,232      | 5         | 3              | 0.09        | 60.00      | 0.02        | 0.09            | 60.00           |
+| Eltham                     | Bromley                                     | 2,045      | 3         | 3              | 0.15        | 100.00     | 0.02        | 0.15            | 100.00          |
+| East Greenwich             | Plaistow                                    | 3,232      | 2         | 2              | 0.06        | 100.00     | 0.02        | 0.06            | 100.00          |
+| East Greenwich             | Dockhead                                    | 3,232      | 1         | 1              | 0.03        | 100.00     | 0.01        | 0.03            | 100.00          |
+| Plumstead                  | Woodside                                    | 4,911      | 1         | 1              | 0.02        | 100.00     | 0.01        | 0.02            | 100.00          |
+| East Greenwich             | Northolt                                    | 3,232      | 1         | 1              | 0.03        | 100.00     | 0.01        | 0.03            | 100.00          |
+| East Greenwich             | Bethnal Green                               | 3,232      | 1         | 1              | 0.03        | 100.00     | 0.01        | 0.03            | 100.00          |
+| East Greenwich             | Homerton                                    | 3,232      | 1         | 1              | 0.03        | 100.00     | 0.01        | 0.03            | 100.00          |
+| Greenwich                  | Old Kent Road                               | 1,032      | 1         | 1              | 0.10        | 100.00     | 0.01        | 0.10            | 100.00          |
 
 
 
