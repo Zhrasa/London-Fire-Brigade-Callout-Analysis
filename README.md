@@ -453,8 +453,67 @@ The objective was to determine which features affect PumpCount and how many pump
 
 PumpCount Description with Outliers
 
+|                | **DayOfCall** | **Year** | **PumpCount** |
+|----------------|---------------|----------|---------------|
+| **Count**      | 5,282         | 5,282    | 5,282         |
+| **Mean**       | 181.71        | 2020.49  | 3.82          |
+| **Std**        | 102.38        | 1.13     | 3.49          |
+| **Min**        | 1             | 2019     | 0             |
+| **25%**        | 94            | 2019     | 2             |
+| **50% (Median)**| 183          | 2021     | 3             |
+| **75%**        | 269           | 2021     | 5             |
+| **Max**        | 366           | 2022     | 105           |
+
+TABLE XXVII 
+PumpCount Description without Outliers
+
+|                | **DayOfCall** | **Year** | **PumpCount** |
+|----------------|---------------|----------|---------------|
+| **Count**      | 3,850         | 3,850    | 3,850         |
+| **Mean**       | 175.36        | 2020.33  | 2.66          |
+| **Std**        | 104.93        | 1.06     | 1.88          |
+| **Min**        | 1             | 2019     | 0             |
+| **25%**        | 85            | 2019     | 1             |
+| **50% (Median)**| 171          | 2020     | 2             |
+| **75%**        | 266           | 2021     | 3             |
+| **Max**        | 366           | 2022     | 13            |
+
 
  </div>
+ The features, after One Hot Encoding had been applied to them, listed in Table XXVIII had the strongest connection to PumpCount. It could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, and PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, correlated negatively with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. 
+
+TABLE XXVIII
+PumpCount Correlation after One Hot Encoding
+
+| **Feature**                                                    | **Correlation** |
+|--------------------------------------------------------------- |-----------------|
+| StopCodeDescription_Special Service                            | -0.456083       |
+| IncidentGroup_Special Service                                  | -0.456083       |
+| PropertyCategory_Non Residential                               | -0.129292       |
+| StopCodeDescription_Secondary Fire                             | -0.122753       |
+| PropertyCategory_Outdoor                                       | -0.115533       |
+| AddressQualifier_Open land/water - nearest gazetteer location   | -0.093454       |
+| PropertyType_Infant/Primary school                             | -0.092524       |
+| PumpHoursRoundUp                                               | 0.360011        |
+| StopCodeDescription_AFA                                        | 0.388027        |
+| IncidentGroup_False Alarm                                      | 0.413127        |
+| SecondPumpArriving_DeployedFromStation_Plumstead               | 0.49605         |
+| NumStationsWithPumpsAttending                                  | 0.692839        |
+| NumPumpsAttending                                              | 0.956851        |
+| PumpCount                                                      | 1               |
+
+
+3.2. Model Parameters
+The reasoning for the data selection for the descriptive modelling was explained in the previous subsection. It could be added that the colour scheme for the figures was based on the Tableau default colours for clearer visibility and consistency between the applications. 
+Only the first business problem applied predictive modelling, thus this subsection describes the hyperparameters of the models used for each target value. 
+The GridCV function of the scikit-learn was considered for hyperparameter tuning but decided against due to the computational costs. Instead, the for loops were used. For the Decision Tree Classifiers, the values of the criterion, splitter, maximum depth, and maximum leaf nodes were adjusted. The minimum number of samples per leaf for the Fire model was set to 10% of the testing set, 161. The resulting performance of the models is shown in Table XXIX. F1 score was prioritised over the accuracy, thus the Gini impurity criterion, the best splitter, and the maximum number of leaf nodes equal to 4 were chosen.
+
+
+TABLE XXIX
+The Fire IncidentGroup Decision Tree Classifier Hyperparameter Tuning
+
+
+
 ======= 
 
 
