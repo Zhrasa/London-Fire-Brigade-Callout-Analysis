@@ -411,13 +411,13 @@ The distribution of the categorical variables was similar between the datasets, 
 
 ![image](https://github.com/user-attachments/assets/65c49751-824e-431d-be98-461931973379)
 
- <div align="center"> The histograms of the categorical features.
+ <div align="center"> The histograms of the categorical features. </div>
 
 No significant connection between the dates of the incidents and the target features was discovered (Fig. 3.6).
 
 ![image](https://github.com/user-attachments/assets/0966bbf3-5c90-48ee-86ed-76b22fc5cc0b)
 
-<div align="center">The scatter plot of incident dates and false alarms.
+<div align="center">The scatter plot of incident dates and false alarms. </div>
 
 The association analysis between IncidentStationGround and FirstPumpArriving_DeployedFromStation showed that while the conditional probability for the specific values of FirstPumpArriving_DeployedFromStation given certain values of IncidentStationGround reached 100%, the support remained low. Overall, the IncidentStationGround -> FirstPumpArriving_DeployedFromStation confidence was mostly below 1%, while the opposite was mostly related to the Station Grounds outside of the borough, thus not represented adequately in the dataset.
 
@@ -432,11 +432,11 @@ Association Between IncidentStationGround and FirstPumpArriving_DeployedFromStat
 The objective was to determine which features affect PumpCount and how many pumps were necessary for a station per day, thus the data was grouped by DayOfYear, Year, and IncidentStationGround. The resulting information is present in Tables XXVI and XXVII, with and without the outliers. The means were 4 and 3, while the medians were 3 and 2, which allowed to conclude that the minimal number of pumps per station should be 4. 
 
  <div align="center"> TABLE XXVI
- 
+
 PumpCount Description with Outliers
 
 
-
+ </div>
 ======= 
 
 
