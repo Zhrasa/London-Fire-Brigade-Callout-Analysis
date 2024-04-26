@@ -420,8 +420,8 @@ No significant connection between the dates of the incidents and the target feat
 <div align="center">The scatter plot of incident dates and false alarms. </div>
 
 The association analysis between IncidentStationGround and FirstPumpArriving_DeployedFromStation showed that while the conditional probability for the specific values of FirstPumpArriving_DeployedFromStation given certain values of IncidentStationGround reached 100%, the support remained low. Overall, the IncidentStationGround -> FirstPumpArriving_DeployedFromStation confidence was mostly below 1%, while the opposite was mostly related to the Station Grounds outside of the borough, thus not represented adequately in the dataset.
-
-TABLE XXV
+<div align="center">
+TABLE XV
 Association Between IncidentStationGround and FirstPumpArriving_DeployedFromStation 
 (with Outliers, Conf_ISG->FP > 50 or Conf_FP->ISG > 50) 
 | **IncidentStation Ground** | **FirstPumpArriving_ DeployedFromStation** | **Fr_ISG** | **Fr_FP** | **Fr_Itemset** | **FrP_ISG** | **FrP_FP** | **Support** | **Conf_ISG->FP** | **Conf_FP->ISG** |
@@ -443,7 +443,7 @@ Association Between IncidentStationGround and FirstPumpArriving_DeployedFromStat
 | East Greenwich             | Homerton                                    | 3,232      | 1         | 1              | 0.03        | 100.00     | 0.01        | 0.03            | 100.00          |
 | Greenwich                  | Old Kent Road                               | 1,032      | 1         | 1              | 0.10        | 100.00     | 0.01        | 0.10            | 100.00          |
 
-
+</div>
 
 
 3.1.5. PumpCount Statistical Analysis
@@ -463,8 +463,8 @@ PumpCount Description with Outliers
 | **50% (Median)**| 183          | 2021     | 3             |
 | **75%**        | 269           | 2021     | 5             |
 | **Max**        | 366           | 2022     | 105           |
-
-TABLE XXVII 
+</div>
+<div align="center"> TABLE XXVII 
 PumpCount Description without Outliers
 
 |                | **DayOfCall** | **Year** | **PumpCount** |
@@ -482,7 +482,7 @@ PumpCount Description without Outliers
  </div>
  The features, after One Hot Encoding had been applied to them, listed in Table XXVIII had the strongest connection to PumpCount. It could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, and PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, correlated negatively with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. 
 
-TABLE XXVIII
+<div align="center"> TABLE XXVIII
 PumpCount Correlation after One Hot Encoding
 
 | **Feature**                                                    | **Correlation** |
@@ -501,18 +501,18 @@ PumpCount Correlation after One Hot Encoding
 | NumStationsWithPumpsAttending                                  | 0.692839        |
 | NumPumpsAttending                                              | 0.956851        |
 | PumpCount                                                      | 1               |
-
+</div>
 
 3.2. Model Parameters
 The reasoning for the data selection for the descriptive modelling was explained in the previous subsection. It could be added that the colour scheme for the figures was based on the Tableau default colours for clearer visibility and consistency between the applications. 
 Only the first business problem applied predictive modelling, thus this subsection describes the hyperparameters of the models used for each target value. 
 The GridCV function of the scikit-learn was considered for hyperparameter tuning but decided against due to the computational costs. Instead, the for loops were used. For the Decision Tree Classifiers, the values of the criterion, splitter, maximum depth, and maximum leaf nodes were adjusted. The minimum number of samples per leaf for the Fire model was set to 10% of the testing set, 161. The resulting performance of the models is shown in Table XXIX. F1 score was prioritised over the accuracy, thus the Gini impurity criterion, the best splitter, and the maximum number of leaf nodes equal to 4 were chosen.
 
-
+<div align="center">
 TABLE XXIX
 The Fire IncidentGroup Decision Tree Classifier Hyperparameter Tuning
 
-
+</div>
 
 ======= 
 
