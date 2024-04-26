@@ -446,10 +446,10 @@ Association Between IncidentStationGround and FirstPumpArriving_DeployedFromStat
 </div>
 
 
-3.1.5. PumpCount Statistical Analysis
-The objective was to determine which features affect PumpCount and how many pumps were necessary for a station per day, thus the data was grouped by DayOfYear, Year, and IncidentStationGround. The resulting information is present in Tables XXVI and XXVII, with and without the outliers. The means were 4 and 3, while the medians were 3 and 2, which allowed to conclude that the minimal number of pumps per station should be 4. 
+#### PumpCount Statistical Analysis
+The objective was to determine which features affect PumpCount and how many pumps were necessary for a station per day, thus the data was grouped by DayOfYear, Year, and IncidentStationGround. The resulting information is present in Tables XVI and XVII, with and without the outliers. The means were 4 and 3, while the medians were 3 and 2, which allowed to conclude that the minimal number of pumps per station should be 4. 
 
- <div align="center"> TABLE XXVI
+ <div align="center"> TABLE XVI
 
 PumpCount Description with Outliers
 
