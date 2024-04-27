@@ -463,8 +463,10 @@ PumpCount Description with Outliers
 | **50% (Median)**| 183          | 2021     | 3             |
 | **75%**        | 269           | 2021     | 5             |
 | **Max**        | 366           | 2022     | 105           |
+
 </div>
-<div align="center"> TABLE XXVII 
+
+<div align="center"> TABLE XVII 
 PumpCount Description without Outliers
 
 |                | **DayOfCall** | **Year** | **PumpCount** |
@@ -480,9 +482,10 @@ PumpCount Description without Outliers
 
 
  </div>
- The features, after One Hot Encoding had been applied to them, listed in Table XXVIII had the strongest connection to PumpCount. It could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, and PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, correlated negatively with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. 
 
-<div align="center"> TABLE XXVIII
+ The features, after One Hot Encoding had been applied to them, listed in Table XVIII had the strongest connection to PumpCount. It could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, and PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, correlated negatively with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. 
+
+<div align="center"> TABLE XVIII
 PumpCount Correlation after One Hot Encoding
 
 | **Feature**                                                    | **Correlation** |
@@ -501,12 +504,13 @@ PumpCount Correlation after One Hot Encoding
 | NumStationsWithPumpsAttending                                  | 0.692839        |
 | NumPumpsAttending                                              | 0.956851        |
 | PumpCount                                                      | 1               |
+
 </div>
 
-3.2. Model Parameters
+### Model Parameters
 The reasoning for the data selection for the descriptive modelling was explained in the previous subsection. It could be added that the colour scheme for the figures was based on the Tableau default colours for clearer visibility and consistency between the applications. 
 Only the first business problem applied predictive modelling, thus this subsection describes the hyperparameters of the models used for each target value. 
-The GridCV function of the scikit-learn was considered for hyperparameter tuning but decided against due to the computational costs. Instead, the for loops were used. For the Decision Tree Classifiers, the values of the criterion, splitter, maximum depth, and maximum leaf nodes were adjusted. The minimum number of samples per leaf for the Fire model was set to 10% of the testing set, 161. The resulting performance of the models is shown in Table XXIX. F1 score was prioritised over the accuracy, thus the Gini impurity criterion, the best splitter, and the maximum number of leaf nodes equal to 4 were chosen.
+The GridCV function of the scikit-learn was considered for hyperparameter tuning but decided against due to the computational costs. Instead, the for loops were used. For the Decision Tree Classifiers, the values of the criterion, splitter, maximum depth, and maximum leaf nodes were adjusted. The minimum number of samples per leaf for the Fire model was set to 10% of the testing set, 161. The resulting performance of the models is shown in Table XIX. F1 score was prioritised over the accuracy, thus the Gini impurity criterion, the best splitter, and the maximum number of leaf nodes equal to 4 were chosen.
 
 <div align="center">
 TABLE XXIX
