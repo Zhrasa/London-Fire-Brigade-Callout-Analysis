@@ -546,7 +546,7 @@ The Fire IncidentGroup Decision Tree Classifier Hyperparameter Tuning
 | Accuracy              | 0.8718    | gini          | best         | 16                 | F1 score              | 0.7266    | log_loss      | best         | 4                  |
 
 </div>
-
+The model’s performance with a range of maximum depths was visualised, demonstrating the lowest and most reliable maximum depth of the tree, 3 (Fig.below).
 ======= 
 
 
