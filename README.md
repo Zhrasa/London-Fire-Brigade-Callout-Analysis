@@ -515,6 +515,7 @@ The GridCV function of the scikit-learn was considered for hyperparameter tuning
 <div align="center">
 TABLE XIX
 The Fire IncidentGroup Decision Tree Classifier Hyperparameter Tuning
+
 | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** |
 |-----------------------|-----------|---------------|--------------|--------------------|-----------------------|-----------|---------------|--------------|--------------------|
 | Accuracy              | 0.7922    | log_loss      | random       | 8                  | F1 score              | 0.2983    | log_loss      | random       | 8                  |
