@@ -424,6 +424,7 @@ The association analysis between IncidentStationGround and FirstPumpArriving_Dep
 TABLE XV
 Association Between IncidentStationGround and FirstPumpArriving_DeployedFromStation 
 (with Outliers, Conf_ISG->FP > 50 or Conf_FP->ISG > 50) 
+
 | **IncidentStation Ground** | **FirstPumpArriving_ DeployedFromStation** | **Fr_ISG** | **Fr_FP** | **Fr_Itemset** | **FrP_ISG** | **FrP_FP** | **Support** | **Conf_ISG->FP** | **Conf_FP->ISG** |
 |----------------------------|--------------------------------------------|------------|-----------|----------------|-------------|------------|-------------|-----------------|-----------------|
 | Plumstead                  | Erith                                       | 4,911      | 174       | 173            | 3.52        | 99.43      | 1.42        | 3.52            | 99.43           |
