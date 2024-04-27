@@ -513,8 +513,35 @@ Only the first business problem applied predictive modelling, thus this subsecti
 The GridCV function of the scikit-learn was considered for hyperparameter tuning but decided against due to the computational costs. Instead, the for loops were used. For the Decision Tree Classifiers, the values of the criterion, splitter, maximum depth, and maximum leaf nodes were adjusted. The minimum number of samples per leaf for the Fire model was set to 10% of the testing set, 161. The resulting performance of the models is shown in Table XIX. F1 score was prioritised over the accuracy, thus the Gini impurity criterion, the best splitter, and the maximum number of leaf nodes equal to 4 were chosen.
 
 <div align="center">
-TABLE XXIX
+TABLE XIX
 The Fire IncidentGroup Decision Tree Classifier Hyperparameter Tuning
+| **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** |
+|-----------------------|-----------|---------------|--------------|--------------------|-----------------------|-----------|---------------|--------------|--------------------|
+| Accuracy              | 0.7922    | log_loss      | random       | 8                  | F1 score              | 0.2983    | log_loss      | random       | 8                  |
+| Accuracy              | 0.8027    | entropy       | random       | 8                  | F1 score              | 0.4008    | entropy       | random       | 8                  |
+| Accuracy              | 0.8345    | gini          | best         | None               | F1 score              | 0.6044    | entropy       | random       | 16                 |
+| Accuracy              | 0.8444    | entropy       | random       | 16                 | F1 score              | 0.6210    | gini          | random       | None               |
+| Accuracy              | 0.8463    | gini          | random       | 4                  | F1 score              | 0.6210    | gini          | random       | 8                  |
+| Accuracy              | 0.8463    | entropy       | random       | 4                  | F1 score              | 0.6210    | gini          | random       | 16                 |
+| Accuracy              | 0.8519    | gini          | random       | None               | F1 score              | 0.6210    | entropy       | random       | None               |
+| Accuracy              | 0.8519    | gini          | random       | 8                  | F1 score              | 0.6210    | log_loss      | random       | 16                 |
+| Accuracy              | 0.8519    | gini          | random       | 16                 | F1 score              | 0.6243    | gini          | best         | None               |
+| Accuracy              | 0.8519    | entropy       | random       | None               | F1 score              | 0.6263    | gini          | random       | 4                  |
+| Accuracy              | 0.8519    | log_loss      | random       | 16                 | F1 score              | 0.6263    | entropy       | random       | 4                  |
+| Accuracy              | 0.8575    | gini          | best         | 8                  | F1 score              | 0.6577    | gini          | best         | 8                  |
+| Accuracy              | 0.8575    | entropy       | best         | None               | F1 score              | 0.6577    | entropy       | best         | None               |
+| Accuracy              | 0.8575    | entropy       | best         | 8                  | F1 score              | 0.6577    | entropy       | best         | 8                  |
+| Accuracy              | 0.8575    | entropy       | best         | 16                 | F1 score              | 0.6577    | entropy       | best         | 16                 |
+| Accuracy              | 0.8575    | log_loss      | best         | None               | F1 score              | 0.6577    | log_loss      | best         | None               |
+| Accuracy              | 0.8575    | log_loss      | best         | 8                  | F1 score              | 0.6577    | log_loss      | best         | 8                  |
+| Accuracy              | 0.8575    | log_loss      | best         | 16                 | F1 score              | 0.6577    | log_loss      | best         | 16                 |
+| Accuracy              | 0.8587    | log_loss      | random       | None               | F1 score              | 0.6637    | log_loss      | random       | None               |
+| Accuracy              | 0.8643    | log_loss      | random       | 4                  | F1 score              | 0.6930    | log_loss      | random       | 4                  |
+| Accuracy              | 0.8712    | gini          | best         | 4                  | F1 score              | 0.7107    | gini          | best         | None               |
+| Accuracy              | 0.8712    | entropy       | best         | 4                  | F1 score              | 0.7107    | gini          | best         | 16                 |
+| Accuracy              | 0.8712    | log_loss      | best         | 4                  | F1 score              | 0.7266    | gini          | best         | 4                  |
+| Accuracy              | 0.8718    | gini          | best         | None               | F1 score              | 0.7266    | entropy       | best         | 4                  |
+| Accuracy              | 0.8718    | gini          | best         | 16                 | F1 score              | 0.7266    | log_loss      | best         | 4                  |
 
 </div>
 
