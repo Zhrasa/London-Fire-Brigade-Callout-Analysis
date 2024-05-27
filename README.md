@@ -551,21 +551,21 @@ The model’s performance with a range of maximum depths was visualised, demonst
 ![image](https://github.com/user-attachments/assets/4f572575-5d08-49f5-8818-ec05cc10d1b1)
 
 <div align="center">
-Fig. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the Fire IncidentGroup Decision Tree.
+Fig. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the Fire IncidentGroup Decision Tree.</div>
 
 ![image](https://github.com/user-attachments/assets/2dc202d1-4bba-4b92-a461-5071cfef900a)
 <div align="center">
 
-
+</div>
 
 ![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
 <div align="center">
 
-
+</div>
 
 ![image](https://github.com/user-attachments/assets/59c9b376-a89e-499c-a2df-c475433fd375)
 <div align="center">
-
+</div>
 
 ======= 
 
