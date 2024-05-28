@@ -553,9 +553,12 @@ The model’s performance with a range of maximum depths was visualised, demonst
 <div align="center">
 Fig. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the Fire IncidentGroup Decision Tree.</div>
 
+The resulting model used the DayOfCall (April 11th and April 12th) and the NumCalls (less than 3) features to determine whether an incident was an actual fire (Fig. 3.8). No attempt was made to retrain the model while preserving the temporal features as integers instead of one-hot-encoded categorical due to the time constraints.
+
+
 ![image](https://github.com/user-attachments/assets/2dc202d1-4bba-4b92-a461-5071cfef900a)
 <div align="center">
-
+Fig. 3.8. The Fire IncidentGroup Decision Tree visualisation
 </div>
 
 ![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
