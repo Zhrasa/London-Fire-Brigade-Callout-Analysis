@@ -561,6 +561,43 @@ The resulting model used the DayOfCall (April 11th and April 12th) and the NumCa
 Fig. 3.8. The Fire IncidentGroup Decision Tree visualisation
 </div>
 
+For the second model for the Fire IncidentGroup target feature, Extreme Gradient Boosting Classifier, the values of the booster, objective, and target evaluation metric were adjusted (Table XXX). The linear booster, the objective of hinge loss for binary classification, and the area under the PR curve evaluation metric were chosen. 
+<div align="center">
+TABLE XXX
+The Fire IncidentGroup Extreme Gradient Boosting Classifier Hyperparameter Tuning
+
+| **Evaluation Metric** | **Value** | **Booster** | **Objective** | **Evaluation Metric** | **Evaluation Metric** | **Value** | **Booster** | **Objective** | **Evaluation Metric** |
+|-----------------------|-----------|-------------|---------------|-----------------------|-----------------------|-----------|-------------|---------------|-----------------------|
+| Accuracy              | 0.8805    | gbtree      | binary:hinge  | error                 | F1-Score              | 0.7181    | gblinear    | binary:logitraw | error                 |
+| Accuracy              | 0.8805    | gbtree      | binary:hinge  | auc                   | F1-Score              | 0.7181    | gblinear    | binary:logitraw | auc                   |
+| Accuracy              | 0.8805    | gbtree      | binary:hinge  | aucpr                 | F1-Score              | 0.7181    | gblinear    | binary:logitraw | aucpr                 |
+| Accuracy              | 0.8805    | dart        | binary:hinge  | error                 | F1-Score              | 0.7212    | gbtree      | binary:logitraw | error                 |
+| Accuracy              | 0.8805    | dart        | binary:hinge  | auc                   | F1-Score              | 0.7212    | gbtree      | binary:logitraw | auc                   |
+| Accuracy              | 0.8805    | dart        | binary:hinge  | aucpr                 | F1-Score              | 0.7212    | gbtree      | binary:logitraw | aucpr                 |
+| Accuracy              | 0.8811    | gbtree      | binary:logitraw | error               | F1-Score              | 0.7212    | dart        | binary:logitraw | error                 |
+| Accuracy              | 0.8811    | gbtree      | binary:logitraw | auc                 | F1-Score              | 0.7212    | dart        | binary:logitraw | auc                   |
+| Accuracy              | 0.8811    | gbtree      | binary:logitraw | aucpr               | F1-Score              | 0.7212    | dart        | binary:logitraw | aucpr                 |
+| Accuracy              | 0.8811    | dart        | binary:logitraw | error               | F1-Score              | 0.7265    | gbtree      | binary:hinge    | error                 |
+| Accuracy              | 0.8811    | dart        | binary:logitraw | auc                 | F1-Score              | 0.7265    | gbtree      | binary:hinge    | auc                   |
+| Accuracy              | 0.8811    | dart        | binary:logitraw | aucpr               | F1-Score              | 0.7265    | gbtree      | binary:hinge    | aucpr                 |
+| Accuracy              | 0.8818    | gblinear    | binary:logitraw | error               | F1-Score              | 0.7265    | dart        | binary:hinge    | error                 |
+| Accuracy              | 0.8818    | gblinear    | binary:logitraw | auc                 | F1-Score              | 0.7265    | dart        | binary:hinge    | auc                   |
+| Accuracy              | 0.8818    | gblinear    | binary:logitraw | aucpr               | F1-Score              | 0.7265    | dart        | binary:hinge    | aucpr                 |
+| Accuracy              | 0.8855    | gbtree      |               | F1-Score              | 0.7379    | gbtree      |               |                 |
+| Accuracy              | 0.8855    | gbtree      | binary:logistic | error               | F1-Score              | 0.7379    | gbtree      | binary:logistic | error                 |
+| Accuracy              | 0.8855    | gbtree      | binary:logistic | auc                 | F1-Score              | 0.7379    | gbtree      | binary:logistic | auc                   |
+| Accuracy              | 0.8855    | gbtree      | binary:logistic | aucpr               | F1-Score              | 0.7379    | gbtree      | binary:logistic | aucpr                 |
+| Accuracy              | 0.8855    | dart        | binary:logistic | error               | F1-Score              | 0.7379    | dart        | binary:logistic | error                 |
+| Accuracy              | 0.8855    | dart        | binary:logistic | auc                 | F1-Score              | 0.7379    | dart        | binary:logistic | auc                   |
+| Accuracy              | 0.8855    | dart        | binary:logistic | aucpr               | F1-Score              | 0.7379    | dart        | binary:logistic | aucpr                 |
+| Accuracy              | 0.8880    | gblinear    | binary:hinge    | auc                 | F1-Score              | 0.7421    | gblinear    | binary:hinge    | auc                   |
+| Accuracy              | 0.8886    | gblinear    | binary:logistic | error               | F1-Score              | 0.7424    | gblinear    | binary:logistic | error                 |
+| Accuracy              | 0.8886    | gblinear    | binary:logistic | auc                 | F1-Score              | 0.7424    | gblinear    | binary:logistic | auc                   |
+| Accuracy              | 0.8886    | gblinear    | binary:logistic | aucpr               | F1-Score              | 0.7424    | gblinear    | binary:logistic | aucpr                 |
+| Accuracy              | 0.8892    | gblinear    | binary:hinge    | error               | F1-Score              | 0.7450    | gblinear    | binary:hinge    | error                 |
+| Accuracy              | 0.8899    | gblinear    | binary:hinge    | aucpr               | F1-Score              | 0.7461    | gblinear    | binary:hinge    | aucpr                 |
+</div>
+
 ![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
 <div align="center">
 
