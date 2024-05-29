@@ -598,6 +598,39 @@ The Fire IncidentGroup Extreme Gradient Boosting Classifier Hyperparameter Tunin
 | Accuracy              | 0.8899    | gblinear    | binary:hinge    | aucpr               | F1-Score              | 0.7461    | gblinear    | binary:hinge    | aucpr                 |
 </div>
 
+For the other target feature, the False Alarm IncidentGroup, the Gini impurity criterion, the best splitter, and the unlimited maximum number of leaf nodes were chosen (Table XXXI).
+<div align="center">
+TABLE XXXI
+ The False Alarm IncidentGroup Decision Tree Classifier Hyperparameter Tuning
+| **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** |
+|-----------------------|-----------|---------------|--------------|--------------------|-----------------------|-----------|---------------|--------------|--------------------|
+| Accuracy              | 0.6503    | gini          | best         | None               | F1-Score              | 0.5301    | gini          | best         | None               |
+| Accuracy              | 0.7293    | gini          | best         | None               | F1-Score              | 0.5484    | gini          | best         | 4                  |
+| Accuracy              | 0.7293    | entropy       | best         | None               | F1-Score              | 0.5484    | gini          | best         | 8                  |
+| Accuracy              | 0.7293    | log_loss      | best         | None               | F1-Score              | 0.5484    | gini          | best         | 16                 |
+| Accuracy              | 0.7386    | gini          | best         | 4                  | F1-Score              | 0.5484    | gini          | random       | 4                  |
+| Accuracy              | 0.7386    | gini          | best         | 8                  | F1-Score              | 0.5484    | gini          | random       | 8                  |
+| Accuracy              | 0.7386    | gini          | best         | 16                 | F1-Score              | 0.5484    | gini          | random       | 16                 |
+| Accuracy              | 0.7386    | gini          | random       | None               | F1-Score              | 0.5484    | entropy       | best         | 4                  |
+| Accuracy              | 0.7386    | gini          | random       | 4                  | F1-Score              | 0.5484    | entropy       | best         | 8                  |
+| Accuracy              | 0.7386    | gini          | random       | 8                  | F1-Score              | 0.5484    | entropy       | best         | 16                 |
+| Accuracy              | 0.7386    | gini          | random       | 16                 | F1-Score              | 0.5484    | entropy       | random       | None               |
+| Accuracy              | 0.7386    | entropy       | best         | 4                  | F1-Score              | 0.5484    | entropy       | random       | 4                  |
+| Accuracy              | 0.7386    | entropy       | best         | 8                  | F1-Score              | 0.5484    | entropy       | random       | 8                  |
+| Accuracy              | 0.7386    | entropy       | best         | 16                 | F1-Score              | 0.5484    | entropy       | random       | 16                 |
+| Accuracy              | 0.7386    | entropy       | random       | None               | F1-Score              | 0.5484    | log_loss      | best         | 4                  |
+| Accuracy              | 0.7386    | entropy       | random       | 4                  | F1-Score              | 0.5484    | log_loss      | best         | 8                  |
+| Accuracy              | 0.7386    | entropy       | random       | 8                  | F1-Score              | 0.5484    | log_loss      | best         | 16                 |
+| Accuracy              | 0.7386    | entropy       | random       | 16                 | F1-Score              | 0.5484    | log_loss      | random       | None               |
+| Accuracy              | 0.7386    | log_loss      | best         | 4                  | F1-Score              | 0.5484    | log_loss      | random       | 4                  |
+| Accuracy              | 0.7386    | log_loss      | best         | 8                  | F1-Score              | 0.5484    | log_loss      | random       | 8                  |
+| Accuracy              | 0.7386    | log_loss      | best         | 16                 | F1-Score              | 0.5484    | log_loss      | random       | 16                 |
+| Accuracy              | 0.7386    | log_loss      | random       | None               | F1-Score              | 0.5588    | gini          | random       | None               |
+| Accuracy              | 0.7386    | log_loss      | random       | 4                  | F1-Score              | 0.5637    | gini          | best         | None               |
+| Accuracy              | 0.7386    | log_loss      | random       | 8                  | F1-Score              | 0.5637    | entropy       | best         | None               |
+| Accuracy              | 0.7386    | log_loss      | random       | 16                 | F1-Score              | 0.5637    | log_loss      | best         | None               |
+
+</div>
 ![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
 <div align="center">
 
