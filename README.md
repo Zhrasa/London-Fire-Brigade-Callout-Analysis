@@ -558,12 +558,12 @@ The resulting model used the DayOfCall (April 11th and April 12th) and the NumCa
 
 ![image](https://github.com/user-attachments/assets/2dc202d1-4bba-4b92-a461-5071cfef900a)
 <div align="center">
-Fig. 3.8. The Fire IncidentGroup Decision Tree visualisation
+Fig.  The Fire IncidentGroup Decision Tree visualisation
 </div>
 
-For the second model for the Fire IncidentGroup target feature, Extreme Gradient Boosting Classifier, the values of the booster, objective, and target evaluation metric were adjusted (Table XXX). The linear booster, the objective of hinge loss for binary classification, and the area under the PR curve evaluation metric were chosen. 
+For the second model for the Fire IncidentGroup target feature, Extreme Gradient Boosting Classifier, the values of the booster, objective, and target evaluation metric were adjusted (Table XX). The linear booster, the objective of hinge loss for binary classification, and the area under the PR curve evaluation metric were chosen. 
 <div align="center">
-TABLE XXX
+TABLE XX
 The Fire IncidentGroup Extreme Gradient Boosting Classifier Hyperparameter Tuning
 
 | **Evaluation Metric** | **Value** | **Booster** | **Objective** | **Evaluation Metric** | **Evaluation Metric** | **Value** | **Booster** | **Objective** | **Evaluation Metric** |
@@ -598,9 +598,9 @@ The Fire IncidentGroup Extreme Gradient Boosting Classifier Hyperparameter Tunin
 | Accuracy              | 0.8899    | gblinear    | binary:hinge    | aucpr               | F1-Score              | 0.7461    | gblinear    | binary:hinge    | aucpr                 |
 </div>
 
-For the other target feature, the False Alarm IncidentGroup, the Gini impurity criterion, the best splitter, and the unlimited maximum number of leaf nodes were chosen (Table XXXI).
+For the other target feature, the False Alarm IncidentGroup, the Gini impurity criterion, the best splitter, and the unlimited maximum number of leaf nodes were chosen (Table XXI).
 <div align="center">
-TABLE XXXI
+TABLE XXI
  The False Alarm IncidentGroup Decision Tree Classifier Hyperparameter Tuning
 
 | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** |
