@@ -602,6 +602,7 @@ For the other target feature, the False Alarm IncidentGroup, the Gini impurity c
 <div align="center">
 TABLE XXXI
  The False Alarm IncidentGroup Decision Tree Classifier Hyperparameter Tuning
+ 
 | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** |
 |-----------------------|-----------|---------------|--------------|--------------------|-----------------------|-----------|---------------|--------------|--------------------|
 | Accuracy              | 0.6503    | gini          | best         | None               | F1-Score              | 0.5301    | gini          | best         | None               |
