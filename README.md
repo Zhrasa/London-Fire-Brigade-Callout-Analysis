@@ -602,7 +602,7 @@ For the other target feature, the False Alarm IncidentGroup, the Gini impurity c
 <div align="center">
 TABLE XXXI
  The False Alarm IncidentGroup Decision Tree Classifier Hyperparameter Tuning
- 
+
 | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** | **Evaluation Metric** | **Value** | **Criterion** | **Splitter** | **Max Leaf Nodes** |
 |-----------------------|-----------|---------------|--------------|--------------------|-----------------------|-----------|---------------|--------------|--------------------|
 | Accuracy              | 0.6503    | gini          | best         | None               | F1-Score              | 0.5301    | gini          | best         | None               |
@@ -631,14 +631,20 @@ TABLE XXXI
 | Accuracy              | 0.7386    | log_loss      | random       | 8                  | F1-Score              | 0.5637    | entropy       | best         | None               |
 | Accuracy              | 0.7386    | log_loss      | random       | 16                 | F1-Score              | 0.5637    | log_loss      | best         | None               |
 
-</div>
-![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
-<div align="center">
 
 </div>
+The model’s performance with a range of maximum depths was visualised, demonstrating that the f1 score reaches the highest at the maximum depth of the tree 10 (Fig. 3.9).
+
+![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
+<div align="center">
+Fig. 3.9. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the False Alarm IncidentGroup Decision Tree.
+</div>
+
+The resulting model used the DayOfCall, the NumCalls, and the geographical (Easting_rounded and Northing_rounded) features to determine whether an incident was an actual fire (Fig. 3.10).
 
 ![image](https://github.com/user-attachments/assets/59c9b376-a89e-499c-a2df-c475433fd375)
 <div align="center">
+Fig. 3.10. The False Alarm IncidentGroup Decision Tree visualisation.
 </div>
 
 ======= 
