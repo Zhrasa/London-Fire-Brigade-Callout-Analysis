@@ -633,11 +633,11 @@ TABLE XXI
 
 
 </div>
-The model’s performance with a range of maximum depths was visualised, demonstrating that the f1 score reaches the highest at the maximum depth of the tree 10 (Fig. 3.9).
+The model’s performance with a range of maximum depths was visualised, demonstrating that the f1 score reaches the highest at the maximum depth of the tree 10 (Fig. below).
 
 ![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
 <div align="center">
-Fig. 3.9. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the False Alarm IncidentGroup Decision Tree.
+Fig.  The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the False Alarm IncidentGroup Decision Tree.
 </div>
 
 The resulting model used the DayOfCall, the NumCalls, and the geographical (Easting_rounded and Northing_rounded) features to determine whether an incident was an actual fire (Fig. 3.10).
