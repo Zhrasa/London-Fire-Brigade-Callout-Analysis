@@ -20,7 +20,6 @@ Fig. The histograms of the numerical and temporal features.
 
 ![The histograms of the categorical features.](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/f3dcb8f6-8124-404d-8351-7b9d1660aee8)
 Fig The histograms of the categorical features.
-![Alt Text]()
 
 
 
