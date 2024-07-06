@@ -18,6 +18,7 @@ To ensure that the correct datatypes were allocated to each variable `Easting_ro
 ![image](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/b2fe713c-6f02-427b-83f3-2542b3a687fa)
 Fig. The histograms of the numerical and temporal features. 
 
+![image](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/f3dcb8f6-8124-404d-8351-7b9d1660aee8)
 
 
 
