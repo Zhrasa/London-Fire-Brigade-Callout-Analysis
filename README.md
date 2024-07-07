@@ -22,6 +22,9 @@ Fig. The histograms of the numerical and temporal features.
 Fig The histograms of the categorical features.
 
 
+ ![image](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/09fe2fd2-2f66-4b52-bb9f-c211d452b0f0)
+
+Fig. 1.6. The scatter plot of fires and false alarms.
 
 ======= 
 
