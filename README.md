@@ -1,4 +1,7 @@
-# London Fire Brigade Analysis
+<div align="center">
+  <h1>London Fire Brigade Analysis</h1>
+</div>
+# 
 This dataset will be employed to answer the business problem questions:
 The only location in the UK to be named in Frommer's top ten global destinations for 2012 was Greenwich. This aims to investigate a genuine issue that the London Fire Brigade has.
 
@@ -23,10 +26,15 @@ The Year feature was dropped, while the DatetimeOfCall was used only for descrip
 
 From the numerical histograms, it can be seen that most of the incidents, including the false alarms and special services, happened between 15:00 and 20:00 hours. The Easting_rounded and Northing_Rounded histograms are slightly skewed to the right. The Attendance Time for the First Pump Arriving was around 6 minutes on average.The DatetimeOfCall histogram demonstrates a small increase in the number of calls during the period observed. The DayOfCall and Month histograms indicate that there were slightly more calls during summer. The rest of the histograms are heavily skewed to the left.
 
-![image](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/ac9876ae-f668-4278-801e-169c9c5f4221)
-Fig. The histograms of the numerical and temporal features. 
+<div align="center">
+  <img src="(https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/ac9876ae-f668-4278-801e-169c9c5f4221" alt="Centered Image">
+  Fig. The histograms of the numerical and temporal features. 
+
+</div>
+
 
 ![image](https://github.com/Zhrasa/London-Fire-Brigade-Callout-Analysis/assets/99383300/f80c573a-004b-4bb8-bd19-09d1c669cffe)
+
 Fig The histograms of the categorical features.
 
 
