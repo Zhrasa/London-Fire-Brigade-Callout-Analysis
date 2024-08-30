@@ -39,6 +39,10 @@ From the numerical histograms, it can be seen that most of the incidents, includ
 
 <div align="center"> Fig. The scatter plot of fires and false alarms.</div>
 
+
+![image](https://github.com/user-attachments/assets/00a05f8c-5127-47b0-bf94-3fd087949ee1)
+
+
 ### Model Construction
 
 
