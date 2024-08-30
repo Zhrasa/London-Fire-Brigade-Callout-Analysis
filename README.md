@@ -55,6 +55,22 @@ The features were separated into the known and unknown at the time of dispatchin
 Several functions from the scikit-learn Python package were used to select the features which would provide the most accurate prediction - SelectKBest and Recursive Feature Elimination (RFE) with feature ranking. The former required to specify the scoring metrics. F_classif (computing the ANOVA F-value) and mutual_info_classif (measuring the dependency between the features) were used with SelectKBest. The number of features was set as one-fourth of the total number (710), 178 (rounding up). 
 The Decision Tree Classifier was chosen as the estimator for the RFE function. Additionally, a set of 18 most important features was generated with RFE. Tables XI and XII describe the summarised feature importance values for the Fire and False Alarm Incident Groups. It can be seen that the temporal and property-related features had the highest importance for both target features, with DayOfCall and PropertyCategory reaching 0.28 and 0.25 for Fire and DayOfCall, PropertyType, and HourOfCall 0.31, 0.13, and 0.12 for False Alarm.
 
+TABLE XI
+RFE Feature Importance for the Fire IncidentGroup
+Feature	Importance (Sum)
+DayOfCall	0.28
+PropertyCategory	0.25
+PropertyType	0.09
+HourOfCall	0.09
+Ward	0.07
+Easting_rounded	0.05
+NumCalls	0.05
+Northing_rounded	0.04
+IncidentStationGround	0.03
+Postcode_district	0.03
+Month	0.02
+AddressQualifier	0.01
+
 
 
 ======= 
