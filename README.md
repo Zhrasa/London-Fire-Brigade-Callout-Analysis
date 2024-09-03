@@ -304,8 +304,8 @@ In order to determine whether there was a connection between Bank Holidays, Fire
 
 ![image](https://github.com/user-attachments/assets/787d48ce-dd26-462c-8aee-1a0a29c087ca)
 
- 
-Fig. 3.1. The scatter plot with outliers.
+<div align="center">   Fig. The scatter plot with outliers. </div>
+
 
 
 
