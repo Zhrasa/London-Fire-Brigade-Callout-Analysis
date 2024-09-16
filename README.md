@@ -318,7 +318,8 @@ As for the geographical features, it was determined that there were fewer fires 
 3.1.4. IncidentStationGround and FirstPumpArriving_DeployedFromStation Analysis
 The entries where FirstPumpArriving_DeployedFromStation was not null, including the outliers, were chosen for the analysis and the dataset was split into two sets - one with the IncidentStationGround and FirstPumpArriving_DeployedFromStation matching and the other with them being different. The scatter plots with the locations of the incidents were based on the IncidentStationGround and FirstPumpArriving_DeployedFromStation (Fig. 3.3 and 3.4). A cluster of incidents is visible on the northern part of the border between East Greenwich and Plumstead station grounds. 
 
- 
+ ![image](https://github.com/user-attachments/assets/14f9d35f-b232-4b6b-b81c-81de98408316)
+
 Fig. 3.3. The scatter plot of the incident locations with the attending stations marked by the Station Ground. 
 
 
