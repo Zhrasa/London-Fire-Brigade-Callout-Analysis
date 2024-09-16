@@ -312,6 +312,14 @@ In order to determine whether there was a connection between Bank Holidays, Fire
 ![image](https://github.com/user-attachments/assets/7b655694-aac7-45e3-8723-3c63670d2a7c)
 
 
+As for the geographical features, it was determined that there were fewer fires and false alarms at parks (Fig. 1.6).
+
+3.1.4. IncidentStationGround and FirstPumpArriving_DeployedFromStation Analysis
+The entries where FirstPumpArriving_DeployedFromStation was not null, including the outliers, were chosen for the analysis and the dataset was split into two sets - one with the IncidentStationGround and FirstPumpArriving_DeployedFromStation matching and the other with them being different. The scatter plots with the locations of the incidents were based on the IncidentStationGround and FirstPumpArriving_DeployedFromStation (Fig. 3.3 and 3.4). A cluster of incidents is visible on the northern part of the border between East Greenwich and Plumstead station grounds. 
+
+ 
+Fig. 3.3. The scatter plot of the incident locations with the attending stations marked by the Station Ground. 
+
 
 
 
