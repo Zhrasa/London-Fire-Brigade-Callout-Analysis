@@ -345,6 +345,9 @@ Dataset Descriptions (Categorical)
 
 
 
+The distribution of the categorical variables was similar between the datasets, not counting the outliers (Fig. 3.5).
+
+![image](https://github.com/user-attachments/assets/65c49751-824e-431d-be98-461931973379)
 
 ======= 
 
