@@ -349,6 +349,16 @@ The distribution of the categorical variables was similar between the datasets, 
 
 ![image](https://github.com/user-attachments/assets/65c49751-824e-431d-be98-461931973379)
 
+Fig. 3.5. The histograms of the categorical features.
+
+No significant connection between the dates of the incidents and the target features was discovered (Fig. 3.6).
+
+![image](https://github.com/user-attachments/assets/0966bbf3-5c90-48ee-86ed-76b22fc5cc0b)
+
+Fig. 3.6. The scatter plot of incident dates and false alarms.
+
+
+
 ======= 
 
 
