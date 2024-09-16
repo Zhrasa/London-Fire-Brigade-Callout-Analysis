@@ -311,6 +311,7 @@ In order to determine whether there was a connection between Bank Holidays, Fire
 
 ![image](https://github.com/user-attachments/assets/7b655694-aac7-45e3-8723-3c63670d2a7c)
 
+<div align="center"> The scatter plot with outliers.  </div>
 
 As for the geographical features, it was determined that there were fewer fires and false alarms at parks (Fig. 1.6).
 
