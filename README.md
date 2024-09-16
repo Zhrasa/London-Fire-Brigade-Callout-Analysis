@@ -44,6 +44,9 @@ From the numerical histograms, it can be seen that most of the incidents, includ
 
  <div align="center"> Fig. The box plots </div>
 
+
+ 
+
 ### Model Construction
 
 #### IncidentGroup Fire/False Alarm Prediction
@@ -324,6 +327,20 @@ Fig. 3.3. The scatter plot of the incident locations with the attending stations
 
 
 ![image](https://github.com/user-attachments/assets/8fb572b9-c775-4c5a-9d17-ddd7b684e1ce)
+
+Fig. 3.4. The scatter plot of the incident locations with the attending stations marked.
+
+The description of the numerical features of the datasets did not show a significant difference in most features, except FirstPumpArriving_AttendanceTime where the parameters were from 27 to 100% higher (Table XXIII). For the categorical features, only Ward, IncidentStationGround, and FirstPumpArriving_DeployedFromStation were different between the datasets (Table XXIV).
+
+TABLE XXIII
+Dataset Descriptions (Numeric)
+
+
+
+
+
+TABLE XXIV
+Dataset Descriptions (Categorical)
 
 
 
