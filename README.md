@@ -323,6 +323,7 @@ The entries where FirstPumpArriving_DeployedFromStation was not null, including 
 Fig. 3.3. The scatter plot of the incident locations with the attending stations marked by the Station Ground. 
 
 
+![image](https://github.com/user-attachments/assets/8fb572b9-c775-4c5a-9d17-ddd7b684e1ce)
 
 
 
