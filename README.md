@@ -547,6 +547,10 @@ The Fire IncidentGroup Decision Tree Classifier Hyperparameter Tuning
 
 </div>
 The model’s performance with a range of maximum depths was visualised, demonstrating the lowest and most reliable maximum depth of the tree, 3 (Fig.below).
+
+![image](https://github.com/user-attachments/assets/4f572575-5d08-49f5-8818-ec05cc10d1b1)
+
+
 ======= 
 
 
