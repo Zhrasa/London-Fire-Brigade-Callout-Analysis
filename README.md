@@ -652,7 +652,7 @@ Fig. The False Alarm IncidentGroup Decision Tree visualisation.
 
 For the second model for the False Alarm IncidentGroup target feature, Random Forest Classifier, the values of the criterion and the number of trees were adjusted (Table XXII). The Gini impurity criterion and 400 trees were chosen. 
 <div align="center">
-## TABLE XXVII
+## TABLE XXII
 ### The False Alarm Incident Group Random Forest Classifier Hyperparameter Tuning
 
 | Evaluation Metric | Value   | Criterion | Splitter | Evaluation Metric | Value   | Criterion | Splitter |
@@ -661,6 +661,10 @@ For the second model for the False Alarm IncidentGroup target feature, Random Fo
 | Accuracy          | 0.7411  |           |          | F1-Score          | 0.6119  |           |          |
 | Accuracy          | 0.7411  | 200       | entropy  | F1-Score          | 0.6121  | 100       | gini     |
 | Accuracy          | 0.7418  | 400       | entropy  | F1-Score          | 0.6145  | 100       | entropy  |
+
+The model’s performance with a range of maximum depths was visualised, demonstrating that f1 score kept increasing up to the depth of 62, slightly turning down at the end, thus the “elbow” point at the depth of 7 was chosen (fig. 3.11). After additional testing it was confirmed that unlimited tree depth provides a higher f1 score - 0.62 instead of 0.59 with the depth of 7
+
+
 ======= 
 
 
