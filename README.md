@@ -665,6 +665,29 @@ For the second model for the False Alarm IncidentGroup target feature, Random Fo
 The model’s performance with a range of maximum depths was visualised, demonstrating that f1 score kept increasing up to the depth of 62, slightly turning down at the end, thus the “elbow” point at the depth of 7 was chosen (fig. 3.11). After additional testing it was confirmed that unlimited tree depth provides a higher f1 score - 0.62 instead of 0.59 with the depth of 7
 
 
+
+
+
+4. Model Interpretation and Evaluation 
+4.1. Descriptive Modelling
+4.1.2. PropertyCategory and IncidentGroup Association Analysis Evaluation
+It was discovered that in the dataset without outliers, there was a clear connection between Dwellings and Road Vehicles requiring Special Services, Outdoor and Outdoor Structures and Fires, and Non-Residential and Other Residential and False Alarms. 
+
+4.1.3. Geographical and Temporal Feature Analysis
+Based on the generated plots the theory of the connection between Bank Holidays and the incidents was rejected. It was discovered that there were fewer incidents in parks.
+
+4.1.4. IncidentStationGround and FirstPumpArriving_DeployedFromStation Analysis Evaluation
+It was discovered that the first stations from another incident station grounds attending a fire arrived 130 seconds later on average.
+
+4.1.5. PumpCount Statistical Analysis Evaluation
+It could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, negatively correlated with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. With and without the outliers, the means were 4 and 3, while the medians were 3 and 2, which allowed to conclude that the minimal number of pumps per station should be 4. 
+
+4.2. Predictive Modelling
+4.2.1. IncidentGroup Fire/False Alarm Prediction
+Compare the performances of different predictive models in terms of accuracy, error rate, generalisation capability (over-fitting), simplicity and cost, etc., where appropriate.
+The accuracy and f1 score for the predictive models were compared in Table XXVIII. The Extreme Gradient Boosting Classifier model achieved the highest accuracy and f1 score for the Fire IncidentGroup target feature. 
+
+
 ======= 
 
 
