@@ -686,7 +686,15 @@ It could be assumed that the automatic false alarms affected the number of pumps
 4.2.1. IncidentGroup Fire/False Alarm Prediction
 Compare the performances of different predictive models in terms of accuracy, error rate, generalisation capability (over-fitting), simplicity and cost, etc., where appropriate.
 The accuracy and f1 score for the predictive models were compared in Table XXVIII. The Extreme Gradient Boosting Classifier model achieved the highest accuracy and f1 score for the Fire IncidentGroup target feature. 
+## TABLE XXVIII
+### Predictive Algorithms’ Performance
 
+| Algorithm                 | Target Feature | Accuracy      | F1 score      |
+|---------------------------|----------------|---------------|---------------|
+| Decision Tree Classifier  | Fire           | 0.8711885501  | 0.7265521797  |
+| XGB Classifier            | Fire           | 0.8886123211  | 0.7431850789  |
+| Decision Tree Classifier  | False Alarm    | 0.7373988799  | 0.5934489403  |
+| Random Forest Classifier  | False Alarm    | 0.7461107654  | 0.6208178439  |
 
 ======= 
 
