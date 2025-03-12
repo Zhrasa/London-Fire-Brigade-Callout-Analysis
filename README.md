@@ -665,7 +665,8 @@ For the second model for the False Alarm IncidentGroup target feature, Random Fo
 The model’s performance with a range of maximum depths was visualised, demonstrating that f1 score kept increasing up to the depth of 62, slightly turning down at the end, thus the “elbow” point at the depth of 7 was chosen (fig. 3.11). After additional testing it was confirmed that unlimited tree depth provides a higher f1 score - 0.62 instead of 0.59 with the depth of 7
 
 
-
+<div align="center">
+Fig. 3.11. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the False Alarm IncidentGroup Random Forest Classifier. 
 
 
 4. Model Interpretation and Evaluation 
@@ -686,6 +687,8 @@ It could be assumed that the automatic false alarms affected the number of pumps
 4.2.1. IncidentGroup Fire/False Alarm Prediction
 Compare the performances of different predictive models in terms of accuracy, error rate, generalisation capability (over-fitting), simplicity and cost, etc., where appropriate.
 The accuracy and f1 score for the predictive models were compared in Table XXVIII. The Extreme Gradient Boosting Classifier model achieved the highest accuracy and f1 score for the Fire IncidentGroup target feature. 
+
+<div align="center">
 ## TABLE XXVIII
 ### Predictive Algorithms’ Performance
 
@@ -695,6 +698,33 @@ The accuracy and f1 score for the predictive models were compared in Table XXVII
 | XGB Classifier            | Fire           | 0.8886123211  | 0.7431850789  |
 | Decision Tree Classifier  | False Alarm    | 0.7373988799  | 0.5934489403  |
 | Random Forest Classifier  | False Alarm    | 0.7461107654  | 0.6208178439  |
+
+
+The Receiver operating characteristic (ROC) for the binary classification task also was applied and visualised (fig. 4.1 - 4.4). It demonstrated that the quality, thus the applicability, of the models was not sufficient for practical application, due to the nature of the business area - delayed response to an incident may cost people’s lives and severe property damage. 
+
+<div align="center">
+Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
+
+ 
+<div align="center">
+Fig. 4.2. The ROC plot for the Fire IncidentGroup Extreme Gradient Boosting Classifier where blue is the True Positive rate and orange is the False Positive rate.
+
+ 
+<div align="center">
+Fig. 4.3. The ROC plot for the False Alarm IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
+
+<div align="center">
+
+
+
+
+4.3. Discussion
+The quality, thus the applicability, of the predictive models was not sufficient for practical application, due to the nature of the business area - delayed response to an incident may cost people’s lives and severe property damage.
+The association between the PropertyCategory and IncidentGroup features was discovered - Dwellings and Road Vehicles were more likely to require Special Services, Outdoor and Outdoor Structures to encounter Fires, and Non-Residential and Other Residential were targets for False Alarms. The correlation between the features significant for Notional Costs and IncidentGroups was not explored.
+Based on the generated plots the theory of the connection between Bank Holidays and the incidents was rejected. It was discovered that there were fewer incidents in parks.
+It was discovered that the first stations from another incident station grounds attending a fire arrived 130 seconds later on average.
+It could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, negatively correlated with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. With and without the outliers, the means were 4 and 3, while the medians were 3 and 2, which allowed to conclude that the minimal number of pumps per station should be 4. 
+In conclusion, while the prediction models were not applicable, some meaningful insight was gained in the coursework.
 
 ======= 
 
