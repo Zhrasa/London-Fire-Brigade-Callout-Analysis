@@ -726,6 +726,15 @@ It was discovered that the first stations from another incident station grounds 
 It could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, negatively correlated with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. With and without the outliers, the means were 4 and 3, while the medians were 3 and 2, which allowed to conclude that the minimal number of pumps per station should be 4. 
 In conclusion, while the prediction models were not applicable, some meaningful insight was gained in the coursework.
 
+
+5. Summary and Suggestions
+A summary of the main findings of the project and suggestions to LFB based on your analysis.
+Firstly, the association between the PropertyCategory and IncidentGroup features was discovered - Dwellings and Road Vehicles were more likely to require Special Services, Outdoor and Outdoor Structures to encounter Fires, and Non-Residential and Other Residential were targets for False Alarms. The correlation between the features significant for Notional Costs and IncidentGroups was not explored.
+Secondly, the theory of the connection between Bank Holidays and the incidents was rejected. It was discovered that there were fewer incidents in parks.
+Additionally, it was discovered that the first stations from another incident station grounds attending a fire arrived 130 seconds later on average.
+Finally, it could be assumed that the automatic false alarms affected the number of pumps, while the NumPumpsAttending, NumStationsWithPumpsAttending, PumpHoursRoundUp had a direct connection to PumpCount, but no causation. Special Service, on the other hand, negatively correlated with PumpCount. Second pumps more often deployed from Plumstead was an interesting observation. With and without the outliers, the means were 4 and 3, while the medians were 3 and 2, which allowed to conclude that the minimal number of pumps per station should be 4. 
+
+
 ======= 
 
 
