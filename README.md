@@ -638,7 +638,7 @@ The model’s performance with a range of maximum depths was visualised, demonst
 <div align="center">
 
 ![image](https://github.com/user-attachments/assets/7f10cf25-9957-40fb-8568-9c31fa258e6b)
-
+    
 Fig.  The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the False Alarm IncidentGroup Decision Tree.
 </div>
 
