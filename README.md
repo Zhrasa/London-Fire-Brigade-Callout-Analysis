@@ -649,6 +649,18 @@ The resulting model used the DayOfCall, the NumCalls, and the geographical (East
 Fig. The False Alarm IncidentGroup Decision Tree visualisation.
 </div>
 
+
+For the second model for the False Alarm IncidentGroup target feature, Random Forest Classifier, the values of the criterion and the number of trees were adjusted (Table XXII). The Gini impurity criterion and 400 trees were chosen. 
+<div align="center">
+## TABLE XXVII
+### The False Alarm Incident Group Random Forest Classifier Hyperparameter Tuning
+
+| Evaluation Metric | Value   | Criterion | Splitter | Evaluation Metric | Value   | Criterion | Splitter |
+|-------------------|---------|-----------|----------|-------------------|---------|-----------|----------|
+| Accuracy          | 0.7405  | 100       | gini     | F1-Score          | 0.6098  | 200       | entropy  |
+| Accuracy          | 0.7411  |           |          | F1-Score          | 0.6119  |           |          |
+| Accuracy          | 0.7411  | 200       | entropy  | F1-Score          | 0.6121  | 100       | gini     |
+| Accuracy          | 0.7418  | 400       | entropy  | F1-Score          | 0.6145  | 100       | entropy  |
 ======= 
 
 
