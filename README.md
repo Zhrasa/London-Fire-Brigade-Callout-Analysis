@@ -709,7 +709,8 @@ Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is th
 <div align="center">
 Fig. 4.2. The ROC plot for the Fire IncidentGroup Extreme Gradient Boosting Classifier where blue is the True Positive rate and orange is the False Positive rate.
 
- 
+ ![image](https://github.com/user-attachments/assets/3c90f8c5-872f-4775-987b-42b8b3dd73e8)
+
 <div align="center">
 Fig. 4.3. The ROC plot for the False Alarm IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
 
