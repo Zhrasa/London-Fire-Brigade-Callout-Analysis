@@ -662,13 +662,15 @@ For the second model for the False Alarm IncidentGroup target feature, Random Fo
 | Accuracy          | 0.7411  | 200       | entropy  | F1-Score          | 0.6121  | 100       | gini     |
 | Accuracy          | 0.7418  | 400       | entropy  | F1-Score          | 0.6145  | 100       | entropy  |
 
+</div>
+
 The model’s performance with a range of maximum depths was visualised, demonstrating that f1 score kept increasing up to the depth of 62, slightly turning down at the end, thus the “elbow” point at the depth of 7 was chosen (fig. 3.11). After additional testing it was confirmed that unlimited tree depth provides a higher f1 score - 0.62 instead of 0.59 with the depth of 7
+<div align="center">
 
 ![image](https://github.com/user-attachments/assets/cf637f1d-377c-45ac-8cd3-f432b2ad7839)
 
-<div align="center">
 Fig. 3.11. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the False Alarm IncidentGroup Random Forest Classifier. 
-
+</div>
 
 4. Model Interpretation and Evaluation 
 4.1. Descriptive Modelling
@@ -699,15 +701,16 @@ The accuracy and f1 score for the predictive models were compared in Table XXVII
 | XGB Classifier            | Fire           | 0.8886123211  | 0.7431850789  |
 | Decision Tree Classifier  | False Alarm    | 0.7373988799  | 0.5934489403  |
 | Random Forest Classifier  | False Alarm    | 0.7461107654  | 0.6208178439  |
+</div>
 
 
 The Receiver operating characteristic (ROC) for the binary classification task also was applied and visualised (fig. 4.1 - 4.4). It demonstrated that the quality, thus the applicability, of the models was not sufficient for practical application, due to the nature of the business area - delayed response to an incident may cost people’s lives and severe property damage. 
-
+<div align="center">
 ![image](https://github.com/user-attachments/assets/83c45776-ba45-48c0-bf7b-e4fcfeb7dc9f)
 
-<div align="center">
-Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
 
+Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
+<div align="center">
  ![image](https://github.com/user-attachments/assets/b843ec56-0ff5-46e4-8477-7e6be2c8a1c0)
 
 <div align="center">
@@ -723,7 +726,7 @@ Fig. 4.3. The ROC plot for the False Alarm IncidentGroup Decision Tree where blu
 
 <div align="center">Fig. 4.4. The ROC plot for the False Alarm IncidentGroup Random Forest Classifier where blue is the True Positive rate and orange is the False Positive rate.
 
-
+</div>
 
 
 4.3. Discussion
