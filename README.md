@@ -664,6 +664,7 @@ For the second model for the False Alarm IncidentGroup target feature, Random Fo
 
 The model’s performance with a range of maximum depths was visualised, demonstrating that f1 score kept increasing up to the depth of 62, slightly turning down at the end, thus the “elbow” point at the depth of 7 was chosen (fig. 3.11). After additional testing it was confirmed that unlimited tree depth provides a higher f1 score - 0.62 instead of 0.59 with the depth of 7
 
+![image](https://github.com/user-attachments/assets/cf637f1d-377c-45ac-8cd3-f432b2ad7839)
 
 <div align="center">
 Fig. 3.11. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the False Alarm IncidentGroup Random Forest Classifier. 
