@@ -702,6 +702,8 @@ The accuracy and f1 score for the predictive models were compared in Table XXVII
 
 The Receiver operating characteristic (ROC) for the binary classification task also was applied and visualised (fig. 4.1 - 4.4). It demonstrated that the quality, thus the applicability, of the models was not sufficient for practical application, due to the nature of the business area - delayed response to an incident may cost people’s lives and severe property damage. 
 
+![image](https://github.com/user-attachments/assets/83c45776-ba45-48c0-bf7b-e4fcfeb7dc9f)
+
 <div align="center">
 Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
 
