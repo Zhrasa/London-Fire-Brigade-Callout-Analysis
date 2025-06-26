@@ -547,17 +547,17 @@ The Fire IncidentGroup Decision Tree Classifier Hyperparameter Tuning
 
 </div>
 The model’s performance with a range of maximum depths was visualised, demonstrating the lowest and most reliable maximum depth of the tree, 3 (Fig.below).
-
+<div align="center">
 ![image](https://github.com/user-attachments/assets/4f572575-5d08-49f5-8818-ec05cc10d1b1)
 
-<div align="center">
+
 Fig. The change in the accuracy (blue) and the f1 score (orange) with the maximum depth (x) of the Fire IncidentGroup Decision Tree.</div>
 
 The resulting model used the DayOfCall (April 11th and April 12th) and the NumCalls (less than 3) features to determine whether an incident was an actual fire (Fig. below). No attempt was made to retrain the model while preserving the temporal features as integers instead of one-hot-encoded categorical due to the time constraints.
 
+<div align="center">
 
 ![image](https://github.com/user-attachments/assets/2dc202d1-4bba-4b92-a461-5071cfef900a)
-<div align="center">
 Fig.  The Fire IncidentGroup Decision Tree visualisation
 </div>
 
