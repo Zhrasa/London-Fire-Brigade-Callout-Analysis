@@ -707,7 +707,8 @@ The Receiver operating characteristic (ROC) for the binary classification task a
 <div align="center">
 Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
 
- 
+ ![image](https://github.com/user-attachments/assets/b843ec56-0ff5-46e4-8477-7e6be2c8a1c0)
+
 <div align="center">
 Fig. 4.2. The ROC plot for the Fire IncidentGroup Extreme Gradient Boosting Classifier where blue is the True Positive rate and orange is the False Positive rate.
 
