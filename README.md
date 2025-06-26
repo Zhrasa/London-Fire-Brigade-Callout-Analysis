@@ -709,22 +709,22 @@ The Receiver operating characteristic (ROC) for the binary classification task a
 ![image](https://github.com/user-attachments/assets/83c45776-ba45-48c0-bf7b-e4fcfeb7dc9f)
 
 
-Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
+Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.</div>
 <div align="center">
  ![image](https://github.com/user-attachments/assets/b843ec56-0ff5-46e4-8477-7e6be2c8a1c0)
 
+Fig. 4.2. The ROC plot for the Fire IncidentGroup Extreme Gradient Boosting Classifier where blue is the True Positive rate and orange is the False Positive rate.</div>
 <div align="center">
-Fig. 4.2. The ROC plot for the Fire IncidentGroup Extreme Gradient Boosting Classifier where blue is the True Positive rate and orange is the False Positive rate.
 
  ![image](https://github.com/user-attachments/assets/3c90f8c5-872f-4775-987b-42b8b3dd73e8)
 
+Fig. 4.3. The ROC plot for the False Alarm IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.</div>
 <div align="center">
-Fig. 4.3. The ROC plot for the False Alarm IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.
 
 
 ![image](https://github.com/user-attachments/assets/4c462ca2-464d-4803-bdfc-04074c2c7ca3)
 
-<div align="center">Fig. 4.4. The ROC plot for the False Alarm IncidentGroup Random Forest Classifier where blue is the True Positive rate and orange is the False Positive rate.
+Fig. 4.4. The ROC plot for the False Alarm IncidentGroup Random Forest Classifier where blue is the True Positive rate and orange is the False Positive rate.
 
 </div>
 
