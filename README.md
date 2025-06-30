@@ -692,8 +692,8 @@ Compare the performances of different predictive models in terms of accuracy, er
 The accuracy and f1 score for the predictive models were compared in Table XXVIII. The Extreme Gradient Boosting Classifier model achieved the highest accuracy and f1 score for the Fire IncidentGroup target feature. 
 
 <div align="center">
-## TABLE XXVIII
-### Predictive Algorithms’ Performance
+TABLE XXVIII
+Predictive Algorithms’ Performance
 
 | Algorithm                 | Target Feature | Accuracy      | F1 score      |
 |---------------------------|----------------|---------------|---------------|
@@ -707,6 +707,7 @@ The accuracy and f1 score for the predictive models were compared in Table XXVII
 The Receiver operating characteristic (ROC) for the binary classification task also was applied and visualised (fig. 4.1 - 4.4). It demonstrated that the quality, thus the applicability, of the models was not sufficient for practical application, due to the nature of the business area - delayed response to an incident may cost people’s lives and severe property damage. 
 <div align="center">
 ![image](https://github.com/user-attachments/assets/2436ab32-466d-44d7-a484-816eaf1973f7)
+</div>	
 Fig. 4.1. The ROC plot for the Fire IncidentGroup Decision Tree where blue is the True Positive rate and orange is the False Positive rate.</div>
 <div align="center">
 ![image](https://github.com/user-attachments/assets/b843ec56-0ff5-46e4-8477-7e6be2c8a1c0)
